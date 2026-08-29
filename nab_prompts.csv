@@ -1,0 +1,33 @@
+product_family,funnel_stage,question
+Bank accounts,problem_aware,Why does my bank charge me a monthly account fee and how can I avoid it in Australia?
+Bank accounts,solution_aware,What are the best no-fee transaction accounts available in Australia?
+Bank accounts,comparison,"How do everyday bank accounts across Australian banks compare in terms of fees, features, and interest rates?"
+Bank accounts,bottom_funnel,Can I open a bank account online with no monthly fee in Australia and what documents do I need to provide?
+Home loans,problem_aware,I'm struggling to understand how much I can borrow for a home in Australia – where do I start?
+Home loans,solution_aware,What types of home loans are available for first-time buyers in Australia?
+Home loans,comparison,How do variable rate and fixed rate home loans compare for Australian borrowers?
+Home loans,bottom_funnel,What documents do I need to apply for a home loan in Australia if I'm self-employed?
+Credit cards,problem_aware,I keep paying high interest on my credit card – how can I reduce that in Australia?
+Credit cards,solution_aware,What are the best low interest credit cards available in Australia?
+Credit cards,comparison,How do rewards credit cards compare to low fee cards in Australia?
+Credit cards,bottom_funnel,"Can I get a credit card with a low interest rate and no annual fee in Australia, and what's the eligibility criteria?"
+Personal loans,problem_aware,I need to consolidate my debts but don't know where to start – what are my options in Australia?
+Personal loans,solution_aware,What personal loan options are there for debt consolidation in Australia?
+Personal loans,comparison,How do secured vs unsecured personal loans compare for Australian borrowers?
+Personal loans,bottom_funnel,What's the typical interest rate for a personal loan in Australia and how long does approval take?
+Insurance,problem_aware,I'm worried about the cost of replacing my car if it gets stolen – what should I do?
+Insurance,solution_aware,What types of car insurance are available in Australia and which one do I need?
+Insurance,comparison,How does comprehensive car insurance differ from third party in Australia?
+Insurance,bottom_funnel,"Can I bundle home and car insurance for a discount in Australia, and which provider offers the best deal?"
+Online banking,problem_aware,I can't keep track of my spending and always miss payments – how can I manage my money better?
+Online banking,solution_aware,What features should I look for in an online banking app in Australia?
+Online banking,comparison,How do Australian banks' mobile apps compare in terms of security and usability?
+Online banking,bottom_funnel,"How do I set up online banking for my account in Australia, and is it safe to use?"
+International banking,problem_aware,I'm moving to Australia and need to transfer money from overseas without losing too much in fees – what should I do?
+International banking,solution_aware,What are the best ways to send money internationally to Australia?
+International banking,comparison,How do bank international transfer fees compare to specialist money transfer services in Australia?
+International banking,bottom_funnel,What information do I need to receive an international transfer into my Australian bank account?
+Investments,problem_aware,I have some savings but don't know how to invest them for the future in Australia – where can I get guidance?
+Investments,solution_aware,What investment options are available for beginners in Australia?
+Investments,comparison,How do managed funds compare to ETFs for Australian investors?
+Investments,bottom_funnel,What's the minimum amount to start investing in Australian shares and what are the typical fees?

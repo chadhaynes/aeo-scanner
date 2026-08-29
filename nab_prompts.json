@@ -1,0 +1,162 @@
+[
+  {
+    "product_family":"Bank accounts",
+    "funnel_stage":"problem_aware",
+    "question":"Why does my bank charge me a monthly account fee and how can I avoid it in Australia?"
+  },
+  {
+    "product_family":"Bank accounts",
+    "funnel_stage":"solution_aware",
+    "question":"What are the best no-fee transaction accounts available in Australia?"
+  },
+  {
+    "product_family":"Bank accounts",
+    "funnel_stage":"comparison",
+    "question":"How do everyday bank accounts across Australian banks compare in terms of fees, features, and interest rates?"
+  },
+  {
+    "product_family":"Bank accounts",
+    "funnel_stage":"bottom_funnel",
+    "question":"Can I open a bank account online with no monthly fee in Australia and what documents do I need to provide?"
+  },
+  {
+    "product_family":"Home loans",
+    "funnel_stage":"problem_aware",
+    "question":"I'm struggling to understand how much I can borrow for a home in Australia \u2013 where do I start?"
+  },
+  {
+    "product_family":"Home loans",
+    "funnel_stage":"solution_aware",
+    "question":"What types of home loans are available for first-time buyers in Australia?"
+  },
+  {
+    "product_family":"Home loans",
+    "funnel_stage":"comparison",
+    "question":"How do variable rate and fixed rate home loans compare for Australian borrowers?"
+  },
+  {
+    "product_family":"Home loans",
+    "funnel_stage":"bottom_funnel",
+    "question":"What documents do I need to apply for a home loan in Australia if I'm self-employed?"
+  },
+  {
+    "product_family":"Credit cards",
+    "funnel_stage":"problem_aware",
+    "question":"I keep paying high interest on my credit card \u2013 how can I reduce that in Australia?"
+  },
+  {
+    "product_family":"Credit cards",
+    "funnel_stage":"solution_aware",
+    "question":"What are the best low interest credit cards available in Australia?"
+  },
+  {
+    "product_family":"Credit cards",
+    "funnel_stage":"comparison",
+    "question":"How do rewards credit cards compare to low fee cards in Australia?"
+  },
+  {
+    "product_family":"Credit cards",
+    "funnel_stage":"bottom_funnel",
+    "question":"Can I get a credit card with a low interest rate and no annual fee in Australia, and what's the eligibility criteria?"
+  },
+  {
+    "product_family":"Personal loans",
+    "funnel_stage":"problem_aware",
+    "question":"I need to consolidate my debts but don't know where to start \u2013 what are my options in Australia?"
+  },
+  {
+    "product_family":"Personal loans",
+    "funnel_stage":"solution_aware",
+    "question":"What personal loan options are there for debt consolidation in Australia?"
+  },
+  {
+    "product_family":"Personal loans",
+    "funnel_stage":"comparison",
+    "question":"How do secured vs unsecured personal loans compare for Australian borrowers?"
+  },
+  {
+    "product_family":"Personal loans",
+    "funnel_stage":"bottom_funnel",
+    "question":"What's the typical interest rate for a personal loan in Australia and how long does approval take?"
+  },
+  {
+    "product_family":"Insurance",
+    "funnel_stage":"problem_aware",
+    "question":"I'm worried about the cost of replacing my car if it gets stolen \u2013 what should I do?"
+  },
+  {
+    "product_family":"Insurance",
+    "funnel_stage":"solution_aware",
+    "question":"What types of car insurance are available in Australia and which one do I need?"
+  },
+  {
+    "product_family":"Insurance",
+    "funnel_stage":"comparison",
+    "question":"How does comprehensive car insurance differ from third party in Australia?"
+  },
+  {
+    "product_family":"Insurance",
+    "funnel_stage":"bottom_funnel",
+    "question":"Can I bundle home and car insurance for a discount in Australia, and which provider offers the best deal?"
+  },
+  {
+    "product_family":"Online banking",
+    "funnel_stage":"problem_aware",
+    "question":"I can't keep track of my spending and always miss payments \u2013 how can I manage my money better?"
+  },
+  {
+    "product_family":"Online banking",
+    "funnel_stage":"solution_aware",
+    "question":"What features should I look for in an online banking app in Australia?"
+  },
+  {
+    "product_family":"Online banking",
+    "funnel_stage":"comparison",
+    "question":"How do Australian banks' mobile apps compare in terms of security and usability?"
+  },
+  {
+    "product_family":"Online banking",
+    "funnel_stage":"bottom_funnel",
+    "question":"How do I set up online banking for my account in Australia, and is it safe to use?"
+  },
+  {
+    "product_family":"International banking",
+    "funnel_stage":"problem_aware",
+    "question":"I'm moving to Australia and need to transfer money from overseas without losing too much in fees \u2013 what should I do?"
+  },
+  {
+    "product_family":"International banking",
+    "funnel_stage":"solution_aware",
+    "question":"What are the best ways to send money internationally to Australia?"
+  },
+  {
+    "product_family":"International banking",
+    "funnel_stage":"comparison",
+    "question":"How do bank international transfer fees compare to specialist money transfer services in Australia?"
+  },
+  {
+    "product_family":"International banking",
+    "funnel_stage":"bottom_funnel",
+    "question":"What information do I need to receive an international transfer into my Australian bank account?"
+  },
+  {
+    "product_family":"Investments",
+    "funnel_stage":"problem_aware",
+    "question":"I have some savings but don't know how to invest them for the future in Australia \u2013 where can I get guidance?"
+  },
+  {
+    "product_family":"Investments",
+    "funnel_stage":"solution_aware",
+    "question":"What investment options are available for beginners in Australia?"
+  },
+  {
+    "product_family":"Investments",
+    "funnel_stage":"comparison",
+    "question":"How do managed funds compare to ETFs for Australian investors?"
+  },
+  {
+    "product_family":"Investments",
+    "funnel_stage":"bottom_funnel",
+    "question":"What's the minimum amount to start investing in Australian shares and what are the typical fees?"
+  }
+]

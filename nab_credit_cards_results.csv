@@ -1,0 +1,851 @@
+model_requested,model_actual,brand_mentioned,answer,citations,num_citations,error,funnel_stage,question,product_family
+openai/gpt-5.6-luna:online,openai/gpt-5.6-luna,False,"You may be able to cut the interest substantially, but the best choice depends mainly on **your balance, current interest rate, and how much you can repay each month**.
+
+## The main options in Australia
+
+### 1. A 0% balance-transfer card
+This can be useful if you can clear the debt during the promotional period. Current comparison listings include examples such as:
+
+- **Bankwest Breeze Platinum:** 0% on balance transfers for 24 months, with a 3% transfer fee and $59 annual fee; the rate then reverts to a higher rate.
+- **Latitude Low Rate Mastercard:** 0% for 25 months, with a 3% transfer fee and $69 annual fee; the post-promotion rate is considerably higher. ([canstar.com.au](https://www.canstar.com.au/credit-cards/compare/balance-transfers/?utm_source=openai))
+
+These are examples, not personal recommendations—offers and eligibility can change, so confirm the terms with the lender before applying.
+
+A 3% transfer fee on a **$5,000 balance is $150**. Including a $59 annual fee, you’d need to repay roughly **$217 per month over 24 months** to clear $5,000 plus those costs.
+
+Important catches:
+
+- The 0% rate lasts only for a fixed period.
+- You may be allowed to transfer only around 80–95% of the new card’s approved limit.
+- Missing a required repayment may cause you to lose the promotional rate.
+- New purchases may attract a different, much higher interest rate.
+- Any remaining balance after the promotion can become expensive. ([moneysmart.gov.au](https://moneysmart.gov.au/credit-cards/credit-card-balance-transfers?utm_source=openai))
+
+### 2. A low-rate credit card
+This may be better if you need more time than the promotional period provides. Compare the **ongoing purchase rate, annual fee, transfer fee and minimum repayment**, rather than focusing only on the advertised introductory rate.
+
+### 3. A personal loan
+A fixed-rate personal loan may give you a definite repayment schedule and longer term. Compare the total cost, including establishment fees, monthly fees and early-repayment conditions. Moneysmart specifically suggests comparing a balance transfer with transferring the debt to a personal loan. ([moneysmart.gov.au](https://moneysmart.gov.au/credit-cards/pay-off-your-credit-card?utm_source=openai))
+
+### 4. Hardship assistance
+If minimum repayments are becoming difficult, contact your card provider before missing a payment. They may be able to change repayments or offer hardship assistance; a balance transfer may not be suitable if you cannot afford the repayments. ([moneysmart.gov.au](https://moneysmart.gov.au/managing-debt/debt-consolidation-and-refinancing?utm_source=openai))
+
+## My practical recommendation
+
+- **If you can repay everything within 12–24 months:** investigate a 0% balance transfer.
+- **If you need longer:** compare a low-rate card or personal loan.
+- **If you are struggling to meet minimum repayments:** contact the existing lender’s hardship team and consider free financial counselling rather than applying for several new cards.
+
+If you share these four figures, I can help compare the options mathematically:
+
+1. Current balance  
+2. Current annual interest rate  
+3. Current monthly repayment  
+4. Amount you can realistically repay each month  
+
+Also tell me whether the debt is on one card or several.","['https://www.canstar.com.au/credit-cards/compare/balance-transfers/?utm_source=openai', 'https://moneysmart.gov.au/credit-cards/credit-card-balance-transfers?utm_source=openai', 'https://moneysmart.gov.au/credit-cards/pay-off-your-credit-card?utm_source=openai', 'https://moneysmart.gov.au/managing-debt/debt-consolidation-and-refinancing?utm_source=openai']",4,,problem_aware,I keep paying high interest on my credit card in Australia and want to find a better deal.,Credit cards
+anthropic/claude-sonnet-5:online,anthropic/claude-sonnet-5,False,"I can help you look into this. Credit card rates and offers change frequently, so let me check what's currently available in Australia.There are two main strategies to reduce your credit card interest costs in Australia right now, and which one suits you depends on whether you can clear the debt quickly or need it spread out over a longer period.
+
+## Option 1: Switch to a genuinely low-rate card
+If you tend to carry a balance long-term, a low-rate card with no promotional gimmicks might be simplest. Low-rate cards charge a reduced purchase rate — typically 9–13% p.a. — with modest annual fees, earning no points but saving significant interest if you carry a balance. To put that in perspective: a borrower carrying $5,000 at 20.99% pays roughly $1,050 in annual interest; the same balance at 11.99% costs about $600.
+
+Some standout options currently on the market:
+- **Community First Bank Low Rate Credit Card** – has an interest rate of 8.99% p.a. on purchases along with a $50 annual card fee and up to 55 days interest free on purchases when you pay in full on time.
+- **ING Orange One Low Rate** – a suitable choice if you want both a low rate and no annual fee, with a purchase rate of 12.99% p.a., interest-free days of up to 45 days, and a minimum credit limit of $1,000.
+
+## Option 2: Do a 0% balance transfer
+If you want to aggressively pay down existing debt without interest piling on, this is usually the more powerful move. A credit card balance transfer involves transferring credit card debt from one or more existing cards to a new one, typically one with a lower initial interest rate — but the lower initial rate is usually only for a limited time.
+
+Current examples:
+- **Bankwest Breeze Mastercard** – offers 24 months at 0% on balance transfers and then 12.99% p.a. on any remaining balance, which is a relatively low rate for a revert.
+- **ANZ Low Rate Credit Card** – has a 26-month 0% balance transfer period, the longest currently available among cards on Money.com.au's database.
+- Some cards on Mozo's database go even further, with 0% offers up to 26 months, a BT fee of 1–3%, and a revert rate of 19–22% p.a.
+
+⚠️ **Important catch:** there's a looming market shift. From 1 October 2026, the RBA cuts the consumer credit card interchange fee cap from 0.8% to 0.3%, and issuers may respond by shortening 0% promotional periods, raising balance transfer fees or tightening eligibility — meaning the current top offers may not survive the reset, so acting before then locks in today's terms.
+
+## Things to watch out for with balance transfers
+- **Fees**: balance transfer fees are one potential trap to look out for, as these fees can be up to 3% of the amount being transferred.
+- **Revert rate**: if you haven't paid off the balance transfer by the end of the offer period, the higher revert interest rate will be charged on your leftover debt.
+- **New purchases**: any new purchases you make on a balance transfer card will immediately attract a higher purchase rate, which can be as high as 12.99% — so it's best to stop using the old spending habits on this card.
+- **Best practice**: pay more than the minimum each month to reduce the principal faster, avoid new purchases on the balance transfer card so interest doesn't build up, and consider closing your old cards once balances are transferred to prevent extra spending.
+
+**My suggestion:** if you can realistically pay off your balance within 12–24 months, a 0% balance transfer card (like the ANZ or Bankwest options above) will save you the most money — just be disciplined about clearing it before the revert rate kicks in. If you expect to carry debt indefinitely, a straightforward low-rate card like the Community First Bank or ING option avoids the ""cliff"" of a revert rate altogether.
+
+Since offers change quickly and eligibility depends on your credit history and existing card issuer, it's worth using a comparison site (Canstar, Mozo, Finder, or Money.com.au) to punch in your actual balance and see real numbers before applying.","['https://www.mozo.com.au/best/best-credit-cards', 'https://www.mozo.com.au/best/best-credit-cards', 'https://www.money.com.au/credit-cards', 'https://www.kredmo.com.au/blog/best-low-interest-rate-credit-cards-australia/', 'https://www.canstar.com.au/credit-cards/compare/0-balance-transfer-offers/', 'https://www.money.com.au/credit-cards/balance-transfer-credit-card', 'https://www.money.com.au/credit-cards/balance-transfer-credit-card', 'https://www.money.com.au/credit-cards', 'https://www.mozo.com.au/credit-cards/balance-transfer', 'https://www.mozo.com.au/credit-cards/balance-transfer', 'https://www.canstar.com.au/credit-cards/compare/0-balance-transfer-offers/', 'https://www.finder.com.au/credit-cards/balance-transfer-credit-cards', 'https://www.canstar.com.au/credit-cards/compare/balance-transfers/', 'https://www.canstar.com.au/credit-cards/compare/balance-transfers/']",14,,problem_aware,I keep paying high interest on my credit card in Australia and want to find a better deal.,Credit cards
+anthropic/claude-opus-5:online,anthropic/claude-opus-5,True,"I'll look up what's currently available in the Australian market.Good news: there's a fair bit of competition right now, and one timing detail worth knowing about.
+
+## First, the context
+
+Australians owe around $21.5 billion on credit cards accruing interest at an average standard rate of 20.99% p.a. With the RBA holding the cash rate at 4.35% in August and cuts not expected until mid-2027, waiting for rates to fall isn't a strategy. So switching is the lever you control.
+
+## Two different fixes (pick based on your situation)
+
+**1. A 0% balance transfer — if you have a chunk of debt you can realistically clear in 1–2 years**
+
+You apply for a new card, nominate the balance to transfer, and the new issuer pays off your old card directly. From then, the transferred balance accrues no interest for the promotional period — typically 12 to 36 months.
+
+Current reference points (verify before applying, these shift monthly): the longest offers in 2026 run to about 26 months (ANZ Low Rate, with a 3% transfer fee), with roughly 28 months at the very top of the market. Other widely-cited offers include the Latitude 28° Global Platinum Mastercard and NAB Low Rate, both at 0% for 12 months with a 3% fee.
+
+**2. A low-rate card — if you'll probably always carry some balance**
+
+Low-rate cards charge roughly 9–13% p.a. with modest annual fees. They earn no points but save significant interest if you carry a balance. On a $5,000 balance, 20.99% costs about $1,050 a year in interest versus about $600 at 11.99%. The cheapest end of the market currently sits around 8.99% p.a., and there are no-annual-fee options like ING Orange One Low Rate at 12.99% p.a. with up to 45 interest-free days.
+
+## The timing catch
+
+From 1 October 2026 the RBA cuts the consumer credit card interchange fee cap from 0.8% to 0.3%, and issuers may respond by shortening 0% promotional periods, raising balance transfer fees or tightening eligibility. The longest current offers may not survive that reset in their present form, so acting before 1 October locks in today's deals — but check the revert rate and transfer fee first.
+
+## Traps to check before you sign
+
+- **Revert rate.** Whatever balance survives the promo is charged at the card's cash advance rate — sometimes around 25.99%. A low-rate card that reverts to ~12.99% is much safer than one reverting to 25%.
+- **Don't spend on the new card.** The 0% applies only to the transferred balance, not new purchases — most cards charge 20–22% on new spending, and some allocate your payments to the lowest-rate balance first.
+- **Fee vs. term maths.** A 3% fee on $10,000 is $300 up front; if you can clear the debt in 12–15 months, a shorter offer with a 1–2% fee usually wins. Some smaller banks and credit unions run $0-fee transfers on 6–12 month offers, which are the cheapest exit if your balance is small.
+- **Same-group restriction.** You can't transfer between cards in the same banking group — CommBank to CommBank is out, as is Westpac to St George.
+- **Transfer limits.** Typically 80–95% of the new card's credit limit, so you may not get the whole balance across.
+
+## If the debt is large or long-term
+
+If you're not confident the balance will be gone inside the promo window, a personal loan at a fixed rate with a fixed end date is often the more honest product for debt needing 3+ years. Rolling, say, $20K across three cards at 20% into one 8% loan can save around $2,400 a year.
+
+## Suggested next step
+
+Work out how many months you actually need, divide your balance by that number, set it as an automatic repayment, and don't spend on the new card. Then compare on Canstar, Finder, Mozo or Money.com.au — but apply directly with the bank and read the key facts sheet, since headline offers change often.
+
+One thing that would sharpen this: roughly how much are you carrying, and could you clear it within about 18–24 months? That determines whether balance transfer or low-rate card is the better play. Also worth knowing — if you're genuinely struggling, you have hardship rights with your current issuer and can ask for a rate reduction or hardship arrangement before switching.","['https://www.mozo.com.au/credit-cards/balance-transfer', 'https://www.mozo.com.au/credit-cards/balance-transfer', 'https://savingsmate.com.au/blog/best-balance-transfer-credit-cards-2026', 'https://worthitcards.com.au/balance-transfer-credit-cards-australia/', 'https://www.mozo.com.au/credit-cards/balance-transfer', 'https://www.mozo.com.au/best/best-credit-cards', 'https://www.mozo.com.au/best/best-credit-cards', 'https://www.money.com.au/credit-cards/low-interest-credit-cards', 'https://www.kredmo.com.au/blog/best-low-interest-rate-credit-cards-australia/', 'https://www.mozo.com.au/credit-cards/balance-transfer', 'https://www.mozo.com.au/credit-cards/balance-transfer', 'https://worthitcards.com.au/balance-transfer-credit-cards-australia/', 'https://worthitcards.com.au/balance-transfer-credit-cards-australia/', 'https://savingsmate.com.au/blog/best-balance-transfer-credit-cards-2026', 'https://worthitcards.com.au/balance-transfer-credit-cards-australia/', 'https://worthitcards.com.au/balance-transfer-credit-cards-australia/', 'https://worthitcards.com.au/balance-transfer-credit-cards-australia/', 'https://worthitcards.com.au/balance-transfer-credit-cards-australia/', 'https://worthitcards.com.au/balance-transfer-credit-cards-australia/', 'https://savingsmate.com.au/blog/best-balance-transfer-credit-cards-2026', 'https://worthitcards.com.au/balance-transfer-credit-cards-australia/']",21,,problem_aware,I keep paying high interest on my credit card in Australia and want to find a better deal.,Credit cards
+google/gemini-3.7-flash:online,google/gemini-3.7-flash,False,"Dealing with high credit card interest (often 20%–25% p.a. in Australia) can make it feel like you are barely making a dent in your balance. 
+
+Here are the main options available in Australia to get a better deal and reduce the interest you are paying:
+
+---
+
+### 1. 0% Balance Transfer Credit Card
+*Best if you can pay off the full debt within a set timeframe (e.g., 12 to 24 months).*
+
+A balance transfer allows you to move your existing card balance to a new credit card that offers a promotional **0% p.a. interest rate** for an introductory period.
+
+* **Pros:** 100% of your repayments go toward paying down the principal balance.
+* **Things to watch out for:**
+  * **Transfer fee:** Many cards charge a 1% to 3% upfront fee on the transferred balance.
+  * **Revert rate:** If you don’t pay the full balance before the promo ends, the remaining balance usually reverts to a very high rate (often 21%+).
+  * **Do not spend on it:** Any new purchases made on the card will usually attract full interest from day one and won’t benefit from the 0% rate.
+
+---
+
+### 2. Switch to a Low-Rate Credit Card
+*Best if you need ongoing flexibility and standard purchases, but want a lower baseline rate.*
+
+Standard rewards or frequent flyer cards charge 20%–25% p.a., whereas dedicated **low-rate cards** in Australia typically charge between **8.99% and 13.99% p.a.**
+
+* **Pros:** Simpler than a balance transfer; no strict countdown clock; lower ongoing annual fees.
+* **Things to watch out for:** You are still paying interest, so it’s not as cost-effective as a 0% balance transfer if your goal is aggressive debt reduction.
+
+---
+
+### 3. Debt Consolidation Personal Loan
+*Best if you want a fixed repayment schedule and a guaranteed date when you will be debt-free.*
+
+You take out a fixed-rate unsecured personal loan (often around 7%–12% p.a. depending on your credit score) to pay off your credit card completely, then pay off the loan in set monthly instalments over 1 to 5 years.
+
+* **Pros:**
+  * Fixed end date with predictable repayments.
+  * Takes away the temptation of revolving credit (if you close the card).
+* **Things to watch out for:** Application fees, early exit fees, and the risk of running up new debt on the credit card if you leave it open.
+
+---
+
+### 4. Ask Your Current Bank for a Better Deal
+Before applying elsewhere (which adds an inquiry to your credit report), call your existing provider:
+* **Request a product switch:** Ask them to switch your account from a high-rate/rewards tier to their lowest-rate card. This often avoids a hard credit check.
+* **Ask for a rate reduction or retention offer:** Mention you are considering transferring your balance to a competitor offering 0%.
+* **Financial Hardship:** If you are struggling to make minimum repayments, ask for their hardship team. Under Australian credit law, banks must consider arrangements such as temporarily freezing interest or setting up a repayment plan.
+
+---
+
+### Recommended Steps to Take:
+
+1. **Check your total balance and current interest rate.**
+2. **Calculate a realistic monthly repayment:** Decide whether you can clear it within 12–24 months (points toward a 0% Balance Transfer) or need a longer, structured plan (points toward a Personal Loan).
+3. **Compare options on independent and comparison tools:**
+   * Use **[Moneysmart.gov.au](https://moneysmart.gov.au)** (Australian Government's free financial guidance site) for repayment calculators.
+   * Compare current market offers on sites like Canstar, Finder, or RateCity.
+4. **Close old cards once transferred:** To prevent the balance from creeping back up, close or reduce the limit on your old card as soon as the transfer clears.
+
+---
+
+*If credit card debt is causing severe financial stress, you can call the **National Debt Helpline on 1800 007 007** (free, confidential, and run by independent financial counsellors in Australia).*",[],0,,problem_aware,I keep paying high interest on my credit card in Australia and want to find a better deal.,Credit cards
+perplexity/sonar,perplexity/sonar,False,"If you’re carrying a balance, the fastest way to cut interest is usually to switch to a **low-rate card** or a **0% balance transfer offer** rather than a rewards card with a high purchase rate.[1][7][9]
+
+A few practical points to check before you switch:
+
+- Look at the **purchase rate** if you’ll keep using the card for spending; low-rate cards in Australia are often considered to be under about **15% p.a.**[1][5]
+- Check the **revert rate** after any introductory offer ends.[1][3]
+- Compare the **annual fee** and other charges, because a low rate can be offset by fees.[1][6]
+- Make sure you can use the **interest-free days** by paying the closing balance in full each month; some cards offer up to **55 days**.[1][2][4]
+
+Examples of lower-rate options in the current market include:
+
+- **Community First Bank Low Rate Credit Card**: **8.99% p.a.** purchase rate, **$50** annual fee, up to **55 days** interest free.[6]
+- **Greater Bank Visa Credit Card**: **9.95% p.a.** purchase rate, **$49** annual fee, up to **55 days** interest free.[6]
+- **Bank of us Visa Credit Card**: **9.99% p.a.** purchase rate, **$39** annual fee, up to **58 days** interest free.[6]
+- **Westpac Lite Card**: **9.90% p.a.** purchase rate, **$9 per month** fee, up to **45 days** interest free.[6]
+- **HSBC Low Rate Credit Card**: **12.99% p.a.** purchase rate, up to **55 days** interest free.[2]
+
+If your main goal is to wipe out existing debt, a **balance transfer** can be even better than a low-rate card, with some offers advertising **0% for 24 months** with a fee, then a much higher revert rate.[1][7]
+
+One caution: Australian card interest is expensive on average, with sources citing roughly **20% p.a.** standard rates, so even a modest reduction can save a lot if you’re carrying a balance.[7][9][10]
+
+If you want, I can help you narrow this down into:
+- **best low-rate card**
+- **best balance transfer card**
+- **lowest-fee option**
+- **best for bad credit / easier approval**","['https://www.canstar.com.au/credit-cards/compare/low-rate-credit-cards/', 'https://www.hsbc.com.au/credit-cards/products/low-rate/', 'https://www.anz.com.au/personal/credit-cards/low-interest-rate-card/', 'https://www.commbank.com.au/credit-cards/low-rate.html', 'https://www.money.com.au/credit-cards/low-interest-credit-cards', 'https://www.money.com.au/credit-cards', 'https://www.finder.com.au/credit-cards', 'https://www.canstar.com.au/credit-cards/', 'https://www.mozo.com.au/credit-cards', 'https://www.finder.com.au/credit-cards/low-interest-rate-credit-cards']",10,,problem_aware,I keep paying high interest on my credit card in Australia and want to find a better deal.,Credit cards
+openai/gpt-5.6-luna:online,openai/gpt-5.6-luna,False,"When comparing credit cards in Australia, start with **how you’ll use the card**—particularly whether you’ll repay the full balance every month or carry debt.
+
+## 1. Interest rates
+
+Compare the separate rates for:
+
+- **Purchases** — the standard rate for everyday spending.
+- **Cash advances** — usually higher, with interest generally charged from the withdrawal date.
+- **Balance transfers** — often promotional, but only for a limited period.
+- **Introductory or “honeymoon” rates** — check exactly when they end and what rate applies afterward.
+
+If you may carry a balance, the purchase rate is usually more important than rewards. If you pay in full every month, the rate may matter less, but only if you reliably meet the payment deadline. ([moneysmart.gov.au](https://moneysmart.gov.au/credit-cards/choosing-a-credit-card?utm_source=openai))
+
+## 2. Interest-free days
+
+Check:
+
+- The maximum number of interest-free days.
+- Whether they apply only to purchases.
+- Whether you must pay the **entire statement balance** by the due date.
+- Whether a balance transfer or cash advance affects eligibility.
+
+Interest-free days generally do not help if you carry a balance from month to month. ([moneysmart.gov.au](https://moneysmart.gov.au/credit-cards/choosing-a-credit-card?utm_source=openai))
+
+## 3. Fees
+
+Look beyond the advertised annual fee. Compare:
+
+- Annual or monthly account fee.
+- Rewards-program fee.
+- Additional-cardholder fee.
+- Late-payment fee.
+- Cash-advance fee.
+- Balance-transfer fee.
+- Foreign transaction and overseas-cash-withdrawal fees.
+- Replacement-card or paper-statement fees.
+- Any fee for optional insurance or other add-ons.
+
+A card with a high annual fee may be worthwhile only if the benefits clearly exceed the fee.
+
+## 4. Rewards and cashback
+
+Calculate the **real dollar value**, not just the number of points. Check:
+
+- Points earned per dollar and whether rates differ by spending category.
+- Monthly or annual points caps.
+- Eligible and excluded transactions—such as government payments, utilities, insurance or rent.
+- Points expiry and account-closure rules.
+- Redemption value for flights, gift cards, cashback or merchandise.
+- Frequent-flyer transfer rates and airline surcharges.
+- Minimum spending required for bonus points.
+- Whether the bonus offer is available only to new customers.
+
+For example:
+
+> **Estimated annual reward value − annual fee − rewards fee = net benefit**
+
+Rewards cards can be poor value if you pay interest, because interest can quickly exceed the value of the points. ([moneysmart.gov.au](https://moneysmart.gov.au/credit-cards/choosing-a-credit-card?utm_source=openai))
+
+## 5. Sign-up offers
+
+Treat “bonus points” and “0%” offers as temporary promotions. Confirm:
+
+- The minimum spend.
+- The deadline.
+- Whether purchases, balance transfers or both qualify.
+- The post-promotional interest rate.
+- Whether you lose the offer after a late payment.
+- Whether the annual fee is charged immediately.
+
+For balance transfers, also check the transfer fee, maximum transferable amount and repayment required to clear the debt before the promotional rate ends. ([moneysmart.gov.au](https://moneysmart.gov.au/credit-cards/credit-card-balance-transfers?utm_source=openai))
+
+## 6. Repayments and credit limit
+
+Check the minimum-repayment formula and ask yourself what repayment would clear the balance—not merely satisfy the minimum. Minimum repayments can leave debt outstanding for many years and substantially increase interest costs. ASIC requires the card’s key facts sheet to show the minimum repayment and relevant interest rates. ([asic.gov.au](https://asic.gov.au/for-consumers/loans-and-credit-cards/?utm_source=openai))
+
+Choose a credit limit you can manage, even if the lender offers more. Multiple applications in a short period can affect your credit report. ([moneysmart.gov.au](https://moneysmart.gov.au/credit-cards/choosing-a-credit-card?utm_source=openai))
+
+## 7. Extra features
+
+Assess whether you would actually use:
+
+- Complimentary travel insurance.
+- Purchase protection or extended warranty.
+- Airport lounge access.
+- Concierge services.
+- Digital-wallet compatibility.
+- Fraud monitoring and card controls.
+- International acceptance.
+
+Read the policy exclusions and eligibility conditions—“complimentary” insurance may require you to pay for travel with the card and meet other conditions.
+
+## A simple way to compare
+
+Create a table with:
+
+| Feature | Card A | Card B |
+|---|---:|---:|
+| Purchase rate |  |  |
+| Cash-advance rate and fee |  |  |
+| Annual fee |  |  |
+| Rewards fee |  |  |
+| Interest-free days |  |  |
+| Overseas transaction fee |  |  |
+| Late fee |  |  |
+| Bonus conditions |  |  |
+| Estimated annual rewards value |  |  |
+| Estimated total annual cost |  |  |
+
+Use each provider’s **Key Facts Sheet** and product terms rather than relying only on comparison-site rankings. Comparison sites may be sponsored, receive commissions, or omit products and fees. ([moneysmart.gov.au](https://moneysmart.gov.au/online-safety/using-comparison-websites?utm_source=openai))
+
+**Rule of thumb:**  
+- If you sometimes carry a balance: prioritise a **low purchase rate and low fees**.  
+- If you always pay in full: compare **annual fee, interest-free period and genuine rewards value**.  
+- If you need to transfer debt: focus on **total repayment cost and the post-promotion rate**, not just the headline offer.","['https://moneysmart.gov.au/credit-cards/choosing-a-credit-card?utm_source=openai', 'https://moneysmart.gov.au/credit-cards/credit-card-balance-transfers?utm_source=openai', 'https://asic.gov.au/for-consumers/loans-and-credit-cards/?utm_source=openai', 'https://moneysmart.gov.au/online-safety/using-comparison-websites?utm_source=openai']",4,,solution_aware,"What should I look for when comparing credit cards in Australia, like interest rates, fees, and rewards?",Credit cards
+anthropic/claude-sonnet-5:online,anthropic/claude-sonnet-5,False,"Comparing credit cards in Australia involves weighing up several key factors. Here's what to focus on:## Key Things to Compare When Choosing an Australian Credit Card
+
+### 1. Interest Rates
+There are actually several different rates on a single card, and they can vary a lot:
+
+- **Purchase rate** – the standard ongoing rate on everyday spending. Low-rate credit cards in Australia typically offer purchase rates between 8% and 13% p.a., compared to standard cards at 20%+. In fact, the average cardholder carrying an unpaid balance owes $1,674 at an average standard rate of 20.99% p.a.
+- **Cash advance rate** – a cash advance refers to using your credit card to get cash, such as withdrawing money from an ATM or transferring money to another account. Most credit cards charge a fee for cash advances and interest for not paying them back before the due date, and cash advance interest rates are typically higher than a credit card's purchase rate.
+- **Balance transfer rate** – the interest rate you'll pay if you transfer a balance from one card to another. Most introductory offers are for 0% p.a. on your balance, but you may pay a one-time fee. Watch out though — promotional 0% p.a. balance transfer periods (e.g. 20 months) typically revert to the cash advance rate afterward, and a 2% balance transfer fee often applies.
+
+Note that rates are currently trending upward for some providers — for example, on and from 28 September 2026, the standard annual interest rate on purchases will increase to 22.49% p.a. for one major bank, so it's worth checking whether any advertised rate is about to change.
+
+### 2. Fees
+Beyond the interest rate, fees can make a big difference to the overall cost:
+
+- **Annual/card fees** – credit card annual fees can range from $0 all the way up to $1,750. Cards with no annual fee ""may not have access to a rewards scheme or other benefits that more premium (and more expensive) cards offer,"" so weigh up whether you'll actually use the perks that a fee-paying card provides. No annual fee credit cards are usually relatively basic cards which do not charge an annual card fee — avoiding this can save cardholders hundreds of dollars per year, but the drawback is you may not have access to a rewards scheme or other benefits.
+- **Other fees to check**: you may also be charged fees, including annual or monthly fees, late payment fees, cash advance fees and international transaction fees. Even ""no annual fee"" cards can still have a cash advance fee for withdrawing cash, and currency conversion fees if you use the card overseas.
+- Fees can also rise over time — one bank has flagged that from 28 October 2026 the cash advance fee will increase from 3% to 3.5%, the minimum fee from $3 to $4, and the maximum from $20 to $50.
+
+### 3. Interest-Free Days
+This affects how much the purchase rate actually matters day-to-day: ideally you want a card with a high number of interest-free days – e.g. up to 55 days. If you pay off your balance in full by the due date each month, you typically won't pay interest on your purchases — but if you only repay part of it, you'll typically be charged interest.
+
+### 4. Rewards & Perks
+Rewards cards can be attractive but come at a cost: rewards credit cards are generally more premium products than low rate or no annual fee cards, and tend to be more expensive due to higher fees and rates — but some people are prepared to pay this in return for perks such as earning points per dollar spent, complimentary insurances, purchase protection, and travel insurance. The trade-off is real: the more perks a card offers, the higher the annual fee — so if you don't use them, you're wasting money.
+
+It's also worth being aware of a looming industry shift: from 1 October 2026, surcharges on Visa, Mastercard and eftpos are banned, saving consumers and businesses up to $1.8 billion per year — but the accompanying interchange fee cut may lead banks to reduce rewards points earn rates. This means the drop in the interchange fee cap (from 0.8% to 0.3%) gives banks a financial incentive to potentially cut rewards earn rates or raise annual fees, so it's a good time to double-check if your rewards card's terms are changing.
+
+### 5. Matching the Card to Your Spending Habits
+The ""best"" card really depends on how you use it:
+- Start by identifying your priority — rewards points, low interest rates, balance transfers, or no annual fee — then consider your monthly spend. High spenders benefit more from rewards cards, while occasional users are better off with a low-fee or low-rate card.
+- If you tend to carry a balance, low rate cards may be suited to people who carry a balance from month to month, though you may still be charged an annual fee and other fees depending on usage.
+- Importantly, the best credit card won't always be the one with the lowest interest rate — a 0% interest card could actually work out more expensive than one with a 20% rate, depending on how you use it and the fees involved.
+
+### Quick Checklist
+When comparing cards side-by-side, look at:
+1. Purchase interest rate (and whether it's about to change)
+2. Cash advance and balance transfer rates/fees
+3. Annual or monthly card fee
+4. Number of interest-free days
+5. Late payment, foreign transaction, and other fees
+6. Rewards program value relative to the fees (points per dollar, redemption value)
+7. Complimentary extras (travel insurance, purchase protection, lounge access)
+8. Minimum income/credit limit eligibility requirements
+
+Since providers like Canstar, Mozo, Finder, and Money.com.au maintain live comparison tables, using one of these tools alongside this checklist can help you filter cards that suit your specific spending pattern (e.g., balance-carrier vs. full-payer, high spender vs. occasional user).","['https://bankmate.app/credit-cards', 'https://www.mozo.com.au/credit-cards', 'https://www.mozo.com.au/credit-cards', 'https://www.finder.com.au/credit-cards', 'https://www.money.com.au/credit-cards', 'https://www.anz.com.au/personal/credit-cards/compare-cards/', 'https://www.money.com.au/credit-cards', 'https://www.canstar.com.au/credit-cards/', 'https://www.canstar.com.au/credit-cards/', 'https://www.canstar.com.au/credit-cards/', 'https://www.anz.com.au/personal/credit-cards/compare-cards/', 'https://www.money.com.au/credit-cards', 'https://www.canstar.com.au/credit-cards/', 'https://www.canstar.com.au/credit-cards/', 'https://www.finder.com.au/credit-cards', 'https://www.mozo.com.au/credit-cards', 'https://www.mozo.com.au/credit-cards', 'https://bankmate.app/credit-cards', 'https://www.canstar.com.au/credit-cards/', 'https://www.money.com.au/credit-cards/low-interest-credit-cards']",20,,solution_aware,"What should I look for when comparing credit cards in Australia, like interest rates, fees, and rewards?",Credit cards
+anthropic/claude-opus-5:online,anthropic/claude-opus-5,False,"I'll look up current Australian credit card information to give you accurate figures.# Comparing Credit Cards in Australia: A Practical Checklist
+
+## Start with the most important question: will you carry a balance?
+
+This single question determines which features matter. To choose the best credit card for you, you need to understand your spending habits and how you will pay it off.
+
+- **If you always pay in full** → prioritise rewards, annual fee, and interest-free days. The interest rate barely matters.
+- **If you sometimes carry a balance** → prioritise a low purchase rate. Rewards will almost never outweigh the interest cost.
+
+---
+
+## 1. Interest rates
+
+**Purchase rate (the headline rate)**The average standard credit card purchase rate in Australia is around 20.99% p.a., based on RBA data, and since 2010 the average credit card rate has stayed relatively steady even as the cash rate moved dramatically — so don't expect card rates to fall just because the RBA cuts rates.
+
+The savings from a low-rate card are real: a borrower carrying $5,000 at 20.99% pays roughly $1,050 in annual interest, while the same balance at 11.99% costs about $600. Low-rate cards typically charge 9–13% p.a. with modest annual fees; they earn no points but save significant interest if you carry a balance.
+
+**Cash advance rate** — almost always higher than the purchase rate, and there's a nasty trap: cash advances typically attract a fee of 2–3.5% of the transaction plus a higher interest rate, and there are no interest-free days, so you pay interest immediately every time.
+
+**Revert rates** — check what a promotional rate becomes afterwards. With 0% balance transfer offers you pay no interest for a limited time, but at the end of the offer period the rate reverts to a higher rate — often the cash advance rate, which is the worst-case scenario.
+
+⚠️ **Check for announced increases.** Rates can rise regardless of the RBA. For example, ANZ has flagged that from 28 September 2026 its standard purchase rate increases to 22.49% p.a., along with a cash advance fee increase from 3% to 3.5%, with the minimum rising from $3 to $4 and the maximum from $20 to $50 on 28 October 2026.
+
+---
+
+## 2. Fees
+
+| Fee | What to watch for |
+|---|---|
+| **Annual fee** | Ranges from $0 to several hundred. ANZ's rewards cards, for instance, span a $58 annual fee on one card up to $375 on a premium rewards card |
+| **Foreign transaction fee** | Typically ~3%. A few cards charge nothing — some offer no foreign transaction fees. Essential if you travel or shop online overseas |
+| **Balance transfer fee** | An upfront percentage that eats into the ""0%"" benefit. Offers in market range from a 2% balance transfer fee to a 5% BT fee |
+| **Cash advance fee** | Usually 2–3.5%, with minimums and maximums |
+| **Late payment fee** | Usually $10–$30 |
+| **Fee waivers** | Read the conditions — e.g. one card offers a $0 annual fee in the first year, waived thereafter only if you spend $36k or more on eligible purchases annually |
+
+The interest rate is only one of the costs involved in having a credit card — other fees may apply.
+
+---
+
+## 3. Rewards
+
+**Do the maths on break-even.** Calculate: (annual spend × points per $1 × value per point) − annual fee. If that's negative, the card is costing you money.
+
+**Key things to compare:**
+- **Earn rate and caps** — many cards cut the rate after a threshold. Examples: 1 Flybuys point per $2 on eligible purchases up to $5,000 in each statement period, or 0.75 Qantas Points per $1 up to $15k then 0.5 points per $1 above that, uncapped.
+- **Excluded transactions** — BPAY, government payments, ATO payments and cash advances usually earn nothing.
+- **Points expiry and transferability** — can you move points to Qantas/Velocity, and at what ratio?
+- **Sign-up bonuses** — special offers like bonus points or 0% balance transfers can provide significant initial value, but check the minimum spend and timeframe are realistic. One current example requires $5,000 spend on eligible purchases within 90 days for 40,000 bonus Qantas Points.
+- **Cashback alternatives** — simpler to value than points, e.g. 1% cashback on everyday eligible purchases.
+
+**The behavioural trap:** research suggests 38% of Australian cardholders justify extra purchases to earn additional reward points, spending an extra $715 each month on average, or $8,580 a year.
+
+---
+
+## 4. Other features worth weighing
+
+- **Interest-free days** — commonly up to 44 days or up to 55 days on purchases when you pay in full on time. Note this only applies if you clear the balance each statement period.
+- **Complimentary insurances** — travel insurance, purchase protection, extended warranty, mobile phone insurance and ticket cover. Read the actual policy limits; premium travel insurance can be worth $200+.
+- **Lounge access** — e.g. 2 Priority Pass lounge visits every calendar year.
+- **Acceptance** — Amex generally charges higher rates and fees plus higher merchant fees, which is why they aren't accepted in many places.
+- **Minimum income and credit limit** requirements.
+
+---
+
+## Two current developments to factor in
+
+**The surcharge ban (1 October 2026).** From 1 October 2026, businesses will no longer be allowed to charge a surcharge on Visa, Mastercard or eftpos payments — the ban was announced by the RBA in March 2026 following a review of merchant card payment costs. However, American Express can still surcharge. This slightly changes the Amex calculus.
+
+**Rewards programs may be devalued.** The accompanying drop in the interchange fee cap (from 0.8% to 0.3%) gives banks a financial incentive to trim rewards program value — so if you're choosing a card primarily for points, check whether your issuer has announced changes before committing.
+
+---
+
+## Where to compare
+
+Start with **[ASIC's Moneysmart](https://moneysmart.gov.au/credit-cards/choosing-a-credit-card)** (government-run, no commercial incentive), then cross-check with Canstar, Mozo, Finder or Money.com.au. Be aware comparison sites earn commissions, so rankings may not be neutral — and rates change frequently, so always verify current rates and terms on the provider's own website before applying.
+
+## Two final cautions
+
+Each credit card application is recorded on your credit file, and multiple applications in a short period can lower your score. So avoid ""churning"" applications while shopping around.
+
+And on repayments: only paying the minimum amount on your statement can lead to years of debt and interest charges, so aim to pay off the total balance by the due date. If you're already struggling, contact your provider about available support, or call the free National Debt Helpline on 1800 007 007.","['https://moneysmart.gov.au/credit-cards/choosing-a-credit-card', 'https://www.mozo.com.au/best/best-credit-cards', 'https://www.finder.com.au/credit-cards/credit-card-statistics', 'https://www.mozo.com.au/best/best-credit-cards', 'https://www.mozo.com.au/best/best-credit-cards', 'https://www.jacarandafinance.com.au/general/credit-debit-card-statistics-australia/', 'https://www.canstar.com.au/credit-cards/compare/best/', 'https://www.anz.com.au/personal/credit-cards/compare-cards/', 'https://www.anz.com.au/personal/credit-cards/compare-cards/', 'https://www.anz.com.au/personal/credit-cards/compare-cards/', 'https://www.anz.com.au/personal/credit-cards/compare-cards/', 'https://www.money.com.au/credit-cards', 'https://www.money.com.au/credit-cards', 'https://www.money.com.au/credit-cards', 'https://www.money.com.au/credit-cards', 'https://www.canstar.com.au/credit-cards/compare/best/', 'https://www.money.com.au/credit-cards', 'https://www.creditcard.com.au/', 'https://www.finder.com.au/credit-cards', 'https://www.money.com.au/credit-cards', 'https://www.money.com.au/credit-cards', 'https://www.money.com.au/credit-cards/research-insights/credit-card-statistics', 'https://www.money.com.au/credit-cards', 'https://www.money.com.au/credit-cards', 'https://www.money.com.au/credit-cards', 'https://www.jacarandafinance.com.au/general/credit-debit-card-statistics-australia/', 'https://www.mozo.com.au/credit-cards', 'https://www.mozo.com.au/best/best-credit-cards', 'https://www.mozo.com.au/credit-cards', 'https://www.mozo.com.au/credit-cards', 'https://www.finder.com.au/credit-cards', 'https://www.finder.com.au/credit-cards', 'https://www.finder.com.au/credit-cards']",33,,solution_aware,"What should I look for when comparing credit cards in Australia, like interest rates, fees, and rewards?",Credit cards
+google/gemini-3.7-flash:online,google/gemini-3.7-flash,True,"When comparing credit cards in Australia, the best card depends primarily on **how you plan to use it** (e.g., paying off the balance in full every month vs. carrying a balance over time). 
+
+Here is a breakdown of the key factors to evaluate:
+
+---
+
+### 1. Interest Rates and Free Periods
+* **Purchase Rate:** The standard interest rate charged on day-to-day purchases (typically ranging from **~9% to 22%+ p.a.**).
+  * *If you pay in full every month:* This rate doesn’t matter much.
+  * *If you carry a balance:* Prioritise a **low-rate card** (usually 8%–13% p.a.).
+* **Interest-Free Days:** Most Australian cards offer up to **44 to 55 days interest-free** on purchases. 
+  * *Crucial rule:* To receive the interest-free days on future purchases, you generally must pay the full statement balance by the due date every month.
+* **Cash Advance Rate:** Significantly higher (often 21%–26% p.a.) and applies immediately when you withdraw cash or make cash-equivalent purchases (e.g., gambling, foreign currency). There are no interest-free days on cash advances.
+* **Balance Transfer (BT) Rates:** If consolidating existing debt, look for **0% p.a. promotional periods** (e.g., 6–24 months).
+  * *Watch out for:* Balance transfer fees (often 1%–3% of the amount), promotional end dates (the rate jumps to the high cash advance/revert rate), and whether you can earn interest-free days on new purchases while a balance transfer is active.
+
+---
+
+### 2. Fees and Surcharges
+* **Annual Fee:** Ranges from **$0 to over $400+**. Higher fees are typically tied to high rewards programs and premium perks.
+* **Foreign Transaction Fees (International Fee):** Most standard cards charge an extra **3.0% to 3.5%** on international transactions (including online shopping in foreign currency). If you travel often or shop overseas, look for **$0 international transaction fee cards**.
+* **Late Payment and Over-Limit Fees:** Usually around $15 to $35 if you miss a due date.
+* **Cash Advance Fees:** A flat fee or percentage (e.g., 2%–4%) added on top of the high cash advance interest rate.
+
+---
+
+### 3. Rewards, Points, and Perks
+If you pay your balance in full every month, rewards cards can offer good value, but only if the value of the rewards outweighs the annual fee.
+
+* **Type of Rewards:**
+  * **Frequent Flyer Programs:** Direct earning into **Qantas Frequent Flyer** or **Velocity Frequent Flyer**.
+  * **Bank Rewards Programs:** (e.g., CommBank Awards, ANZ Rewards, NAB Rewards, Westpac Altitude) allowing flexibility to convert points to gift cards, products, or various airline programs.
+* **Earn Rate and Point Caps:** 
+  * Check how many points you earn per $1 spent (e.g., 1 point/$1 vs. 0.5 points/$1).
+  * Check if there is a **monthly spending cap** after which points earn at a lower rate or stop altogether.
+  * Check the **tiering** (government spend, ATO payments, and BPAY usually earn zero or very low points).
+* **Bonus Sign-Up Points:** Many cards offer 50,000 to 120,000+ bonus points. Check the **minimum spend criteria** (e.g., spend $3,000 in the first 90 days) and whether you have held a card with that bank in the last 12–18 months (which may disqualify you).
+* **Complimentary Extras:**
+  * **Travel Insurance:** Read the Product Disclosure Statement (PDS) carefully; most Australian cards require you to spend a minimum amount on flights/accommodation using the card to activate cover.
+  * **Travel Credits / Lounge Passes:** Some premium cards offer annual travel credits (e.g., a $450 travel credit offsetting a $450 fee) or airport lounge passes.
+
+---
+
+### 4. Choosing the Right Card for Your Profile
+
+| Your Spending Habit | Best Card Type | What to Focus On |
+| :--- | :--- | :--- |
+| **Payer-in-Full** (Never carries a balance) | **Rewards / Premium Cards** | High points earn rate, sign-up bonus, perks that exceed the annual fee. |
+| **Occasional Balances** (Carries debt month-to-month) | **Low-Rate Cards** | Low ongoing purchase rate (under 12%), low annual fee. Avoid rewards cards. |
+| **Paying Down Existing Debt** | **Balance Transfer Cards** | 0% p.a. for maximum months, low BT fee, low revert rate. |
+| **Everyday Convenience / Minimal Use** | **No Annual Fee Cards** | $0 annual fee for life, basic functionality. |
+| **Frequent Traveller / Online Shopper** | **Travel / No FX Fee Cards** | 0% foreign transaction fees, included travel insurance. |
+
+---
+
+### 5. Australian Lending & Credit Considerations
+* **Credit Limit Impact on Borrowing Power:** Under Australian Comprehensive Credit Reporting (CCR) and responsible lending laws, lenders assess your **total credit limit** as potential debt—not just your outstanding balance. A $10,000 limit can significantly reduce how much you can borrow for a home loan, even if the balance is $0.
+* **Minimum Repayment Warning:** Look at your statement’s minimum repayment warning box, which outlines how long it will take to pay off a balance if you only pay the required minimum (often decades).
+* **Serviceability Rules:** Australian banks must assess whether you can repay the card's maximum credit limit within **3 years**. Make sure you apply for a realistic credit limit to avoid application rejections.",[],0,,solution_aware,"What should I look for when comparing credit cards in Australia, like interest rates, fees, and rewards?",Credit cards
+perplexity/sonar,perplexity/sonar,False,"When comparing **credit cards in Australia**, focus first on the **purchase interest rate**, **annual fee**, **interest-free days**, and whether the card’s **rewards value outweighs its costs**.[4][7][8] If you plan to carry a balance, the interest rate matters most; if you pay in full each month, fees and rewards become more important.[4][7]
+
+Key things to compare:
+
+- **Purchase interest rate**: This is the rate charged on everyday card purchases if you do not pay the full statement balance by the due date.[4][7] Australian card rates vary widely; recent comparison sources show many cards around the high teens to low 20s, with some low-rate cards much lower.[1][3][8][9]
+- **Annual fee**: A low-rate card may still be expensive if the annual fee is high, while some rewards cards charge much more in fees.[5][8] For example, the ANZ Rewards Black card has a much higher annual fee than ANZ’s low-rate card.[5]
+- **Interest-free days**: These are the days you can avoid interest on new purchases if you pay the closing balance in full each month; longer interest-free periods give you more time to repay.[4]
+- **Cash advance rate and fees**: Cash withdrawals and similar transactions usually attract a higher rate than purchases, so it is worth avoiding them unless necessary.[5][7][10]
+- **Balance transfer rate and revert rate**: If you are moving debt from another card, check the promotional balance transfer rate and what it changes to after the intro period ends.[5][7]
+- **Rewards points or cashback**: Rewards can be valuable, but only if the benefit is greater than the card’s fee and any extra interest you might pay; rewards cards often have higher ongoing rates and fees than low-rate cards.[1][5][8]
+- **Foreign transaction fees**: Important if you shop overseas or on overseas websites, because these fees can make a card much more expensive.[8]
+- **Intro offers and conditions**: Some cards advertise low promotional rates for a limited time, so always check the standard rate that applies afterward.[7]
+
+A practical rule of thumb:
+
+- If you **carry a balance**, prioritise a **low purchase rate** and low fees.[4][7]
+- If you **pay in full every month**, prioritise **low fees**, useful **rewards**, and good **interest-free days**.[4][8]
+- If you need to **transfer debt**, prioritise the **balance transfer offer** and the **revert rate**.[5][7]
+
+If you want, I can also give you a **simple credit card comparison checklist** you can use before applying.","['https://www.canstar.com.au/credit-cards/what-is-the-average-credit-card-interest-rate/', 'https://www.commbank.com.au/credit-cards/card-fees-charges.html', 'https://www.money.com.au/credit-cards', 'https://www.canstar.com.au/credit-cards/compare/low-rate-credit-cards/', 'https://www.anz.com.au/personal/credit-cards/manage-my-card/rates-fees-terms/', 'https://www.bankaust.com.au/banking/credit-cards/credit-card-rates-and-fees', 'https://www.finder.com.au/credit-cards/credit-card-interest-rates', 'https://www.mozo.com.au/credit-cards', 'https://www.finder.com.au/credit-cards/credit-card-statistics', 'https://www.bankofmelbourne.com.au/personal/credit-cards/manage/credit-card-interest-rates']",10,,solution_aware,"What should I look for when comparing credit cards in Australia, like interest rates, fees, and rewards?",Credit cards
+openai/gpt-5.6-luna:online,openai/gpt-5.6-luna,False,"## Short answer
+
+**Rewards cards can be worth it in Australia if you pay the balance in full every month, spend enough on normal expenses, and redeem rewards at good value.**  
+
+**Low-rate cards are usually better if you may carry a balance**, because the interest saved will generally outweigh the value of points.
+
+ASIC’s Moneysmart gives similar guidance: people who carry balances should generally consider a no-frills, lower-rate card, while rewards cards tend to make more sense for people who repay in full. ([moneysmart.gov.au](https://moneysmart.gov.au/credit-cards/choosing-a-credit-card?utm_source=openai))
+
+### How they compare
+
+| Factor | Rewards card | Low-rate card |
+|---|---|---|
+| Interest rate | Usually higher | Usually lower |
+| Annual fee | Often higher | Usually lower |
+| Rewards | Points, cashback, travel benefits | Usually none or limited |
+| Best for | Full monthly repayments and regular spending | Carrying debt or occasional repayment |
+| Main risk | Paying more in fees or interest than rewards are worth | Fewer perks |
+| Key discipline | Never carry a balance | Focus on reducing interest and fees |
+
+## The crucial calculation
+
+Work out:
+
+**Value of rewards − annual fees − extra card costs − surcharges = net benefit**
+
+For example:
+
+- Annual spending: **$30,000**
+- Effective rewards value: **0.5%** = $150
+- Rewards-card annual fee: **$250**
+- Low-rate card annual fee: **$59**
+
+The rewards card would already be **$159 worse** before considering any interest or merchant surcharges.
+
+Rewards-card value varies considerably depending on redemption method. Points redeemed for flights or transferred strategically may be worth more than points exchanged for merchandise or gift cards. Check expiry dates, earning caps, eligible transactions, redemption fees and minimum-spend conditions. Moneysmart specifically warns that rewards programs can have fees, restrictions and redemption rules that reduce their real value. ([moneysmart.gov.au](https://moneysmart.gov.au/credit-cards/choosing-a-credit-card?utm_source=openai))
+
+## If you carry a balance
+
+Suppose a rewards card costs **6 percentage points more** than a low-rate card and you carry an average balance of **$2,000**:
+
+**$2,000 × 6% = approximately $120 extra interest per year**
+
+That interest can easily eliminate modest rewards. On a larger balance, or if you only make minimum repayments, the low-rate card is usually clearly better. ASIC notes that minimum repayments increase both the total interest paid and the time required to clear the debt. ([asic.gov.au](https://asic.gov.au/for-consumers/loans-and-credit-cards/?utm_source=openai))
+
+## Rewards cards are most likely worthwhile when you:
+
+- Pay the **entire statement balance by the due date**
+- Use the card for expenses you would make anyway
+- Earn rewards on most of your spending
+- Can obtain a worthwhile sign-up bonus without overspending
+- Use rewards for relatively high-value redemptions
+- Avoid merchant surcharges or include them in your calculation
+- Receive useful extras such as travel insurance—but only if you meet the policy conditions
+
+Interest-free periods generally apply only when you satisfy the card’s repayment conditions and pay in full; they do not make carrying debt free. ([moneysmart.gov.au](https://moneysmart.gov.au/credit-cards/choosing-a-credit-card?utm_source=openai))
+
+## A low-rate card is usually better when you:
+
+- Sometimes carry a balance
+- Are paying off existing credit-card debt
+- Have inconsistent income or cash flow
+- Are tempted to spend more to earn points
+- Don’t travel or have little use for the rewards
+- Prefer predictable, low ongoing costs
+
+## Don’t forget surcharges
+
+As of **August 29, 2026**, Australian merchants may still impose card surcharges in permitted circumstances. The RBA says designated card networks are scheduled to introduce no-surcharge rules from **October 1, 2026**, which may change how merchants price card payments—but you should still check the actual terms and costs when comparing cards. ([rba.gov.au](https://www.rba.gov.au/payments-and-infrastructure/review-of-retail-payments-regulation/2026-03/conclusions-paper/faqs/?utm_source=openai))
+
+## Bottom line
+
+- **Always pay in full:** a rewards card may be worthwhile, but only if the rewards’ realistic value exceeds the annual fee and other costs.
+- **Sometimes carry a balance:** choose the low-rate card.
+- **Already struggling with repayments:** neither rewards nor a higher credit limit is likely to solve the problem; focus on reducing the debt and fees first.
+
+A practical approach is to compare one rewards card and one low-rate card using your **actual annual spending, average balance, annual fee, rewards value and likely surcharges**—not the advertised points number.","['https://moneysmart.gov.au/credit-cards/choosing-a-credit-card?utm_source=openai', 'https://asic.gov.au/for-consumers/loans-and-credit-cards/?utm_source=openai', 'https://www.rba.gov.au/payments-and-infrastructure/review-of-retail-payments-regulation/2026-03/conclusions-paper/faqs/?utm_source=openai']",3,,comparison,Are rewards credit cards worth it compared to low-rate credit cards in Australia?,Credit cards
+anthropic/claude-sonnet-5:online,anthropic/claude-sonnet-5,False,"## Short answer: It depends entirely on whether you pay your balance in full each month
+
+**Rewards cards make sense only for ""transactors"" (people who pay in full every month) — not ""revolvers"" (people who carry a balance).**
+
+### Why carrying a balance kills the rewards math
+
+Rewards credit cards in Australia typically carry much higher interest rates than low-rate cards. Rewards credit cards usually come with an annual fee that tends to be much higher than the annual fees on other types of credit cards, and they typically come with higher interest rates than regular credit cards. Specifically, at an average credit card interest rate of around 20.99% p.a., carrying a balance erases the value of any points earned — the maths only works in your favour as a transactor, not a revolver.
+
+Multiple comparison sites reach the same conclusion: whether or not rewards credit cards are worth it depends on how you use your credit card — they typically charge higher annual fees and interest rates than non-rewards cards, so before applying you should make sure the rewards you earn justify the higher cost. If you use your card a lot and pay off your balance each month, it may be worthwhile, but if you carry a balance you'll likely spend more in interest than you'd gain in rewards.
+
+By contrast, low-rate cards are built for the opposite type of user: low rate credit cards are designed to be a relatively cheap option based on interest rate, are usually fairly basic in features/perks/rewards, and are often used by people who will occasionally have an outstanding balance that interest is charged on.
+
+### When rewards cards ARE worth it
+
+If you clear your statement in full every month, the calculus flips: if you pay in full every month, a rewards or airline card adds genuine value at no extra cost, and if you travel internationally, a no-foreign-transaction-fee card is practically mandatory.
+
+To actually benefit, though, you need enough spending volume to offset the annual fee. As one break-even example shows: a no-annual-fee card earning 1.25 points per $1 at $5,000 annual spend generates about 6,250 points, and since points are worth roughly 0.5–0.7c when transferred to Qantas or Velocity, that's only about $31–$44 in flight value per year. Higher-fee cards need proportionally higher spend: if your annual spend exceeds $13,000, a card with a modest annual fee but higher earn rate (like the Amex Explorer at 2pts/$1 for $395/year) will come out ahead. Watch out for the ""platinum trap"" too — dozens of cards use ""platinum"" or ""premier"" in their name but earn as low as 0.5 points per dollar, while some cards with generic names earn 2+ points per dollar.
+
+### A big change coming that affects this trade-off
+
+There's a regulatory shift landing very soon that specifically affects rewards-vs-low-rate economics in Australia: from 1 October 2026, the RBA cuts the consumer credit card interchange fee cap from 0.80% to 0.30% and bans card surcharges entirely, with banks estimating the revenue impact at approximately $910 million per year. As a direct result, several major banks have already indicated they will reduce earn rates, tighten bonus point caps or raise annual fees on consumer rewards products, while American Express and business credit cards are not subject to the new cap and are less likely to see changes. Practically, this means Visa/Mastercard rewards cards are likely to get somewhat less generous over the next few months, while Amex rewards products may hold their value better.
+
+### Practical decision framework
+
+- **You carry a balance sometimes** → Go low-rate. Don't let points tempt you into paying more in interest than you'd earn in rewards value — a sensible rule echoed across comparison sites: if you sometimes carry a balance, prioritise the lowest purchase rate and don't let rewards tempt you into paying more interest than you earn in points.
+- **You always pay in full and spend a decent amount monthly** → A rewards card can genuinely pay for itself, especially if you pick one matched to how you redeem (flights vs. gift cards vs. cashback) and check the actual points-per-dollar rate rather than trusting the card's name/tier.
+- **You're deciding right now (mid/late 2026)** → Worth checking whether your card (or one you're considering) has announced fee or earn-rate changes ahead of the October surcharge-ban/interchange changes, since the accompanying drop in the interchange fee cap gives banks a financial incentive to trim rewards program value ahead of the cut-off.
+
+**Bottom line:** Low-rate cards are the safer default for most Australians, especially anyone who doesn't always clear their balance. Rewards cards can add real, ""free"" value — but only for disciplined full-balance payers with enough spend to clear the annual fee, and it's worth reassessing point values given the rewards landscape is shifting in late 2026.","['https://www.mozo.com.au/rewards-credit-cards', 'https://www.mozo.com.au/credit-cards/rewards', 'https://www.canstar.com.au/credit-cards/compare/rewards-credit-cards/', 'https://www.money.com.au/credit-cards', 'https://rankoptimizers.com/en/24-best-credit-cards-in-australia-low-rate-rewards-travel/', 'https://www.creditcard.com.au/reward-credit-card-offers/', 'https://www.creditcard.com.au/reward-credit-card-offers/', 'https://www.creditcard.com.au/reward-credit-card-offers/', 'https://www.mozo.com.au/credit-cards/rewards', 'https://www.mozo.com.au/rewards-credit-cards', 'https://rankoptimizers.com/en/24-best-credit-cards-in-australia-low-rate-rewards-travel/', 'https://www.mozo.com.au/credit-cards']",12,,comparison,Are rewards credit cards worth it compared to low-rate credit cards in Australia?,Credit cards
+anthropic/claude-opus-5:online,anthropic/claude-opus-5,True,"I'll look up current Australian credit card data to give you an accurate picture.## Short answer
+
+It hinges almost entirely on one thing: **do you ever carry a balance?** If yes, low-rate wins easily. If you always pay in full, rewards can win — but the margin is thinner than it used to be, and it's narrowing in 2026.
+
+## The break-even maths
+
+**If you carry a balance,** the interest gap swamps any rewards value. Rewards cards typically charge 20–21% p.a. on purchases with annual fees from $99 to $1,200 or more, and only make financial sense if you pay your balance in full every statement cycle. Low-rate cards charge roughly 9–13% p.a. with modest annual fees — they earn no points but save significant interest if you carry a balance. On a $5,000 balance, that's roughly $1,050 a year in interest at 20.99% versus about $600 at 11.99%.
+
+No rewards program returns $450 on $5,000 of spending. Points are typically worth somewhere around 0.5–1% of spend, so you'd need to spend $45,000+ to earn that back — while still paying the interest.
+
+**If you pay in full,** the interest rate is irrelevant. Pay the card off completely each month and you pay no interest at all — any credit card effectively becomes a 0% card if you clear your spending before interest kicks in. Then it's purely rewards value versus the annual fee. As a rough guide, at ~1% effective return you need about $20,000 of annual spend to cover a $200 fee — before you've made a cent.
+
+Worth noting the average annual credit card fee in Australia is around $161, and premium rewards cards sit well above that.
+
+## The catch for most people
+
+Research shows 65% of Australians pay off their card each month, with 22% occasionally carrying a balance, 10% frequently paying interest, and 3% making only minimum repayments most months.
+
+That ""occasionally carrying a balance"" group is where people get burned — carrying any balance forward cancels the interest-free period entirely, so one slip can wipe out months of points. Discipline matters more than the card.
+
+## The 2026 wrinkle
+
+The rewards side is actively deteriorating right now:
+
+- From 1 October 2026, surcharges on Visa, Mastercard and eftpos are banned, but the accompanying interchange fee cut may lead banks to reduce rewards points earn rates. The interchange cap drops from 0.8% to 0.3%, giving banks a financial incentive to trim rewards program value.
+- It's already happening: NAB, ANZ and Westpac have announced changes to their cards, with points earn rates and complimentary services taking the biggest hit — perks are becoming harder to find and may cost more to access, in what's shaping up as a significant reset for the market.
+- Amex and PayPal are exempt from the surcharge ban and can still surcharge, provided it doesn't exceed the merchant's actual cost — relevant if you were leaning toward a high-earning Amex.
+
+Meanwhile low rates aren't likely to fall soon: with the first cash rate cut widely tipped for mid-2027, credit card standard rates are unlikely to drop in the near term, and the average rate on balances accruing interest remains around 20.99% p.a.
+
+## Practical decision rule
+
+| Your situation | Better fit |
+|---|---|
+| Always pay in full, spend $2,500+/month | Rewards — but recalculate the fee against *current* earn rates |
+| Always pay in full, modest spend | **No-annual-fee card**, not a low-rate card |
+| Sometimes carry a balance | Low-rate |
+| Regularly carry a balance | Low-rate, plus a plan to clear it (a 0% balance transfer first) |
+
+Two things people get wrong: first, a low-rate card isn't automatically cheap — cards with no annual fee won't necessarily have a low interest rate, and the reverse is also true. Second, check the revert and cash advance rates — some low-rate cards apply the cash advance rate to balance transfers after the intro period, which can be as high as 29.99% p.a.
+
+If you tell me your rough monthly spend and whether you ever carry a balance, I can sanity-check the numbers for your case. Worth also running your own figures on Canstar, Finder or Mozo, since earn rates are changing month to month right now.","['https://www.mozo.com.au/best/best-credit-cards', 'https://www.mozo.com.au/best/best-credit-cards', 'https://www.finder.com.au/credit-cards/low-interest-rate-credit-cards', 'https://www.money.com.au/credit-cards/research-insights/credit-card-statistics', 'https://www.money.com.au/credit-cards/research-insights/credit-card-statistics', 'https://www.mozo.com.au/credit-cards', 'https://www.mozo.com.au/credit-cards', 'https://www.mozo.com.au/credit-cards', 'https://www.money.com.au/credit-cards', 'https://www.mozo.com.au/best/best-credit-cards', 'https://www.mozo.com.au/credit-cards', 'https://www.money.com.au/credit-cards', 'https://www.finder.com.au/credit-cards/low-interest-rate-credit-cards']",13,,comparison,Are rewards credit cards worth it compared to low-rate credit cards in Australia?,Credit cards
+google/gemini-3.7-flash:online,google/gemini-3.7-flash,False,"In Australia, whether a **rewards credit card** is worth it compared to a **low-rate credit card** depends almost entirely on **how you use your card** and **whether you pay off the balance in full every month**. 
+
+---
+
+### The Golden Rule of Rewards Cards
+> **If you ever carry a balance from month to month, a rewards card is almost never worth it.**
+
+Rewards cards in Australia typically charge purchase interest rates of **20% to 24% p.a.**, whereas points/cashback are generally worth between **0.5% and 2%** of your spend. A single month of interest charges will easily wipe out the entire value of any rewards you have earned.
+
+---
+
+### Key Differences at a Glance
+
+| Feature | Rewards Credit Cards | Low-Rate Credit Cards |
+| :--- | :--- | :--- |
+| **Purchase Interest Rate** | High (typically 19.99% – 24.99% p.a.) | Low (typically 7.49% – 14.00% p.a.) |
+| **Annual Fee** | High ($100 – $450+ per year) | Low or Nil ($0 – $60 per year) |
+| **Points / Rewards** | Qantas, Velocity, or Bank points on eligible spend | None (or very basic cashback) |
+| **Included Perks** | Travel insurance, lounge passes, flight credits | Minimal to none |
+| **Best For** | High spenders, frequent flyers, bonus-chasers | People who carry a balance or spend modestly |
+
+---
+
+### When a Rewards Card **IS** Worth It
+
+A rewards card is worth the higher annual fee if you fit the following criteria:
+
+1. **You pay your balance in full every month:** You never accrue interest (e.g., via a direct debit set to 100%).
+2. **You capitalise on Sign-Up Bonuses:** In Australia, introductory bonus point offers (e.g., 60,000 to 120,000 bonus Qantas or Velocity points) provide the highest return on investment, easily exceeding the first year’s annual fee if you meet the minimum spend criteria.
+3. **You use the built-in perks:** Many mid- to top-tier cards include:
+   * **International Travel Insurance:** Can save you $150–$400 per trip.
+   * **Travel/Flight Credits:** E.g., a $250 annual travel credit on a $395 fee card directly reduces the effective fee.
+   * **Airport Lounge Passes:** 2 complimentary passes per year.
+4. **You redeem points efficiently:** Points are worth the most when redeemed for **Classic Reward flight seats or upgrades** (often 1.5c to 3c+ per point value). If you redeem them for gift cards, retail products, or statement credits, the value drops significantly (often to ~0.5c per point), making the card harder to justify against its annual fee.
+
+---
+
+### When a Low-Rate Card **IS** Worth It
+
+A low-rate card is the better choice if:
+
+1. **You sometimes carry a balance:** If you use your card for emergency cash flow or large purchases you pay off over several months, an 8%–12% interest rate will save you hundreds of dollars compared to a 21% rewards card.
+2. **You have lower monthly spend:** Because the Reserve Bank of Australia (RBA) caps interchange fees, base earn rates on everyday spending are modest (often 0.5 to 1 point per dollar, with monthly caps). If you only spend $1,000 to $1,500 a month on the card, the organic points earned may not even cover a $200–$350 annual fee.
+3. **You want low maintenance and low fees:** Low-rate cards generally have low or $0 annual fees, meaning you do not have to ""optimise"" your spending or chase reward redemptions just to break even.
+
+---
+
+### Decision Checklist
+
+* **Choose a Low-Rate Card if:** You want peace of mind, low annual fees, or you anticipate carrying a balance.
+* **Choose a Rewards Card if:** You pay in full every month, use premium travel perks/insurance, and plan to redeem points for travel or sign-up bonuses.
+
+*(Note: Credit card terms, interest rates, and fees vary across Australian institutions. This information is general in nature and not personal financial advice.)*",[],0,,comparison,Are rewards credit cards worth it compared to low-rate credit cards in Australia?,Credit cards
+perplexity/sonar,perplexity/sonar,False,"Yes—**for most Australians, low-rate credit cards are better value unless you pay the balance in full every month and can genuinely use the rewards**.[3][6][8]
+
+- **Low-rate cards** are designed to reduce interest costs and are usually the better choice if you carry a balance, even occasionally.[1][3][6][10]
+- **Rewards cards** usually charge much higher interest and fees, but can be worthwhile if you clear the card in full each month and spend enough to offset the annual fee with points or perks.[1][3][5][8]
+
+The main trade-off is simple:
+
+| Card type | Best for | Typical downside |
+|---|---|---|
+| **Low-rate** | People who carry a balance or want lower ongoing costs | Usually no points or premium perks[1][3][10] |
+| **Rewards** | People who pay in full monthly and spend enough to earn meaningful value | Higher annual fees and interest rates[1][3][5][6] |
+
+A few practical points matter in Australia:
+
+- Rewards cards often have purchase rates around **19%–23%+ p.a.** and fees that can range from about **$99 to several hundred dollars**.[1][5][6][7]
+- Low-rate cards are commonly around **9%–13% p.a.** and are specifically positioned to save money on interest.[1][6][10]
+- CHOICE, as cited in the search results, found some rewards cards may need **over $2,000 in monthly spending** just to break even on the annual fee.[1]
+
+A good rule of thumb is:
+
+- Choose **rewards** only if you **pay in full every month**, won’t overspend to chase points, and the rewards you’ll actually redeem are worth more than the card’s fees.[3][5][8][9]
+- Choose **low-rate** if you ever carry debt, want a cheaper card, or don’t care much about points.[1][3][6][10]
+
+If you want, I can also help you do a quick **break-even calculation** using your spending, annual fee, and interest rate.","['https://www.econnex.com.au/credit-cards/blogs/low-rate-vs-rewards-credit-cards', 'https://www.money.com.au/credit-cards', 'https://www.canstar.com.au/credit-cards/', 'https://www.anz.com.au/personal/credit-cards/compare-cards/', 'https://www.finder.com.au/credit-cards/rewards-credit-cards', 'https://www.mozo.com.au/best/best-credit-cards', 'https://www.dolaro.com.au/articles/credit-cards/best-rewards-credit-cards-australia-2026', 'https://moneysmart.gov.au/credit-cards/choosing-a-credit-card', 'https://www.mozo.com.au/credit-cards', 'https://www.money.com.au/credit-cards/low-interest-credit-cards']",10,,comparison,Are rewards credit cards worth it compared to low-rate credit cards in Australia?,Credit cards
+openai/gpt-5.6-luna:online,openai/gpt-5.6-luna,False,"Yes. In Australia, you can apply online for credit cards that combine a **low purchase interest rate with no annual fee**, subject to the lender’s eligibility and credit assessment.
+
+Examples currently advertised:
+
+- **Bank Australia Low Rate Visa** — **12.99% p.a. variable rate**, $0 annual fee, $1,000 minimum credit limit. It has a $3.50 cash-advance fee and a 3% international transaction fee. ([bankaust.com.au](https://www.bankaust.com.au/banking/credit-cards/low-rate-visa-credit-card))
+- **Bankwest Zero Mastercard** — **$0 annual fee** and an ongoing purchase rate of **18.99% p.a.**; the Classic version has a $1,000 minimum limit. A limited-time 0% introductory offer may apply, with conditions and a 3% balance-transfer fee. ([bankwest.com.au](https://www.bankwest.com.au/credit-cards/no-annual-fee))
+- **Health Professionals Bank Credit Card** — $0 annual fee, limits from $1,000 to $25,000, and online applications generally taking under 15 minutes; check its eligibility and current rate before applying. ([hpbank.com.au](https://www.hpbank.com.au/banking/credit-card))
+
+**What you’ll usually need:**
+
+- Be at least 18
+- Australian residential address and acceptable identity documents
+- Income, employment, expenses, debts and assets information
+- Sufficient ability to repay the proposed credit limit
+
+For example, ING requires applicants for its Orange One Low Rate card to earn at least $36,000 before tax, be an Australian or New Zealand citizen or Australian permanent resident, and hold or open an Orange Everyday account. ([ing.com.au](https://www.ing.com.au/credit-cards/how-to-apply-for-a-credit-card.html))
+
+Before applying, compare the **purchase rate**, cash-advance rate, foreign-transaction fees, balance-transfer fees and minimum credit limit—not just the annual fee. ASIC recommends reading the card’s Key Facts Sheet, and multiple applications within a short period may affect your credit report. ([moneysmart.gov.au](https://moneysmart.gov.au/credit-cards/choosing-a-credit-card?utm_source=openai))","['https://www.bankaust.com.au/banking/credit-cards/low-rate-visa-credit-card', 'https://www.bankwest.com.au/credit-cards/no-annual-fee', 'https://www.hpbank.com.au/banking/credit-card', 'https://www.ing.com.au/credit-cards/how-to-apply-for-a-credit-card.html', 'https://moneysmart.gov.au/credit-cards/choosing-a-credit-card?utm_source=openai']",5,,bottom_funnel,Can I apply for a low-rate credit card online in Australia with no annual fee?,Credit cards
+anthropic/claude-sonnet-5:online,anthropic/claude-sonnet-5,True,"Yes, absolutely — you can apply for a low-rate, no-annual-fee credit card entirely online in Australia. There are several genuine options currently on the market:
+
+**Examples of low-rate, $0 annual fee cards:**
+
+- **American Express Low Rate Card** – this card has no annual fee and the lowest Amex interest rate on purchases. Specifically, it offers a 10.99% p.a. purchase rate (after up to 55 interest-free days) and no annual fee, with a modest credit limit from $1,000.
+- **Bankwest Zero Mastercard** – this range offers no annual fee, even on Platinum credit cards, and gives up to 55 interest-free days on purchases.
+- **Bank Australia** – offers a low purchase and cash advance rate along with up to 55 days interest-free on purchases and no annual fee.
+
+**A few things to keep in mind:**
+
+- No-annual-fee cards aren't entirely ""free"" — other card fees such as ATM cash advances, foreign transactions, balance transfer and late payment fees may be higher, and the interest or purchase rate can also be higher.
+- There's generally a trade-off: the lower the fee on the card, the fewer bells and whistles it will have — no annual fee cards are less likely to include rewards programs or perks like travel insurance and lounge access.
+- Watch out for **temporary** $0 fee offers — some cards, like a MyCard option, only waive the annual fee if you start your application before 1 October 2026, after which a fee applies.
+
+**How to apply online:**
+Most major banks let you complete the whole process digitally. For example, with NAB you simply check that you meet the eligibility criteria, then complete the online application form and get a response in 60 seconds. Typical eligibility requirements (using ANZ as an example) include being an Australian or New Zealand citizen, permanent resident, or having more than 12 months left on your visa, plus providing proof of identity.
+
+**Before applying, it's worth comparing:**
+- The ongoing purchase/cash advance interest rate
+- Foreign transaction and balance transfer fees
+- Whether the ""no annual fee"" is permanent or just an introductory offer
+- Your minimum credit limit and eligibility requirements
+
+If you tell me a bit about what matters most to you (e.g., lowest possible interest rate, occasional international use, or just a simple no-frills card), I can help narrow down which type would suit you best.","['https://www.americanexpress.com/en-au/credit-cards/low-rate-credit-card/', 'https://www.money.com.au/credit-cards/low-interest-credit-cards', 'https://www.money.com.au/credit-cards/low-interest-credit-cards', 'https://www.bankwest.com.au/credit-cards/no-annual-fee', 'https://www.bankwest.com.au/credit-cards/no-annual-fee', 'https://www.creditcard.com.au/no-annual-fee-credit-cards/', 'https://www.canstar.com.au/credit-cards/compare/no-annual-fee-credit-cards/', 'https://www.canstar.com.au/credit-cards/compare/no-annual-fee-credit-cards/', 'https://www.canstar.com.au/credit-cards/compare/no-annual-fee-credit-cards/', 'https://www.mycard.com.au/credit-cards', 'https://www.nab.com.au/personal/credit-cards/low-fee-card', 'https://www.anz.com.au/personal/credit-cards/low-annual-fee-first/']",12,,bottom_funnel,Can I apply for a low-rate credit card online in Australia with no annual fee?,Credit cards
+anthropic/claude-opus-5:online,anthropic/claude-opus-5,False,"I'll look up current options for you.Yes — you can, and there are several cards that combine both a low ongoing rate and a $0 annual fee. Applications in Australia are almost universally done online (usually 10–15 minutes, with conditional approval often within 60 seconds to a few business days).
+
+**Cards that pair a low rate with no annual fee**
+
+- **American Express Low Rate Card** — a 10.99% p.a. purchase rate with up to 55 interest-free days, no annual fee, and credit limits starting from $1,000. It scores well in Finder's rankings, and is often flagged as suitable for first-time or backup cardholders who may not clear the balance in full each month.
+- **ING Orange One Low Rate** — 12.99% p.a. purchase rate, up to 45 interest-free days, minimum credit limit $1,000, and no annual fee.
+- **Credit union / mutual bank options** — Heritage Bank's Gold Low Rate, the Coastline Visa and Qudos Bank's Lifestyle card all rate highly for combining a $0 ongoing annual fee with a low rate. Bank Australia also offers a low purchase and cash advance rate with up to 55 interest-free days and no annual fee.
+
+**Worth knowing before you apply**
+
+- The two features don't always come together. A card with no annual fee won't necessarily have a low interest rate — a typical no-annual-fee card sits around 19.99% p.a. versus roughly 13.74% p.a. for a typical low-rate card. On an average balance, paying a ~$59 annual fee for a genuinely low rate can work out cheaper once you're carrying more than about $944. So if you'll revolve a balance, chase the rate first; if you always pay in full, the fee matters more.
+- Check whether the $0 fee is permanent or just first-year. Many cards on the market have $0 fees only for a limited period, and cards like the ANZ Low Rate waive the fee in year one then charge $58 p.a.
+- Watch the other fees. No-annual-fee cards can carry higher cash advance, foreign transaction, balance transfer and late payment fees.
+- Rates go lower if you'll accept a small fee: purchase rates on the market start from around 7.49% p.a., and the Community First Bank Low Rate card offers 8.99% p.a. with a $50 annual fee.
+
+**Typical online application requirements:** 18+, Australian citizen/permanent resident (or eligible visa holder), a minimum income (often $15,000–$35,000+ depending on the issuer), plus ID, employment and expense details. Credit unions may require membership, which you can usually join online at the same time.
+
+Comparison sites like Canstar, Finder, Mozo and Money.com.au let you filter by annual fee and purchase rate side by side. Just note that these services don't compare every product or provider, earn money through commercial arrangements, and default table ordering can be influenced by those arrangements — so confirm rates and fees directly with the issuer, as product information can change without notice.
+
+This is general information, not financial advice — consider your own circumstances or speak to a financial adviser before applying.","['https://www.money.com.au/credit-cards/low-interest-credit-cards', 'https://www.finder.com.au/credit-cards/no-annual-fee-credit-cards', 'https://www.kredmo.com.au/blog/best-no-annual-fee-credit-cards-australia/', 'https://www.kredmo.com.au/blog/best-low-interest-rate-credit-cards-australia/', 'https://www.finder.com.au/credit-cards/no-annual-fee-credit-cards', 'https://www.finder.com.au/credit-cards/no-annual-fee-credit-cards', 'https://www.finder.com.au/credit-cards/no-annual-fee-credit-cards', 'https://www.creditcard.com.au/no-annual-fee-credit-cards/', 'https://www.money.com.au/credit-cards', 'https://www.creditcard.com.au/no-annual-fee-credit-cards/', 'https://www.creditcard.com.au/no-annual-fee-credit-cards/', 'https://www.canstar.com.au/credit-cards/compare/no-annual-fee-credit-cards/', 'https://www.money.com.au/credit-cards', 'https://www.money.com.au/credit-cards', 'https://www.canstar.com.au/credit-cards/compare/no-annual-fee-credit-cards/', 'https://www.money.com.au/credit-cards/low-interest-credit-cards', 'https://www.money.com.au/credit-cards', 'https://www.finder.com.au/credit-cards/low-interest-rate-credit-cards', 'https://www.finder.com.au/credit-cards/low-interest-rate-credit-cards', 'https://www.money.com.au/credit-cards/low-interest-credit-cards']",20,,bottom_funnel,Can I apply for a low-rate credit card online in Australia with no annual fee?,Credit cards
+google/gemini-3.7-flash:online,google/gemini-3.7-flash,True,"**Yes, you can apply online in Australia for a low-rate credit card with no annual fee.** Almost all Australian banks, customer-owned banks, credit unions, and non-bank lenders offer 100% digital application processes.
+
+---
+
+### 1. The Low-Rate vs. No-Fee Landscape
+When looking for a credit card that combines both **low purchase interest rates** (typically around 8% to 14% p.a.) and **$0 annual fees**, cards generally fall into three categories:
+
+* **Ongoing No-Annual-Fee & Low-Rate Cards:** 
+  A small number of lenders offer genuine permanent $0 annual fees paired with low purchase interest rates. These are most commonly found through customer-owned banks, credit unions, or niche issuers (e.g., *Heritage Bank*, *BankVic*, or *American Express Low Rate*).
+* **Introductory $0 Fee Deals (Fee waived for year 1):** 
+  Many major banks (such as ANZ, Westpac, or NAB) offer low-rate cards where the annual fee is **$0 for the first year**, reverting to a low ongoing fee (usually $30–$60 p.a.) thereafter.
+* **Spend-Waived Annual Fees:** 
+  Some cards waive the annual fee completely in subsequent years as long as you meet an annual minimum spend requirement (e.g., spending at least $5,000 per year).
+
+---
+
+### 2. General Eligibility Requirements
+To apply online, you typically need to meet the following criteria:
+* Be at least **18 years old**.
+* Be an **Australian citizen, permanent resident**, or holder of an eligible long-term visa.
+* Have a regular source of taxable income and meet the lender's minimum income threshold (often starting around $25,000–$35,000 p.a.).
+* Have a **good credit history** and pass the lender's credit check.
+
+---
+
+### 3. What You Need for the Online Application
+The application usually takes 10–15 minutes if you have your details ready:
+* **Identification:** Australian Driver’s Licence, Medicare card, or Passport.
+* **Income Details:** Recent payslips, tax returns (if self-employed), or Centrelink statements.
+* **Financial Details:** Information about your assets, existing debts (personal loans, HECS/HELP, other credit cards), and regular living expenses.
+
+---
+
+### 4. Things to Watch Out For
+* **Balance Transfer Reversion Rates:** If taking advantage of a promotional 0% interest balance transfer period, check what rate it reverts to once the promotional period ends.
+* **Late & Cash Advance Fees:** Cash advances and missed payment fees are not covered by the low-purchase rate and generally carry higher interest charges.
+* **Foreign Transaction Fees:** Low-rate and fee-free cards often charge a 3%–3.5% fee on overseas purchases or international online shopping.","['https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFj4Lwqa3Eh7Qobm6qTnpW1097BCKtlyCZMLd-qNT8byVzhvqfPFyy8HkqhCKTkRR-QH-vauA3U2X_4c8dfInW0DeAALwpeq-HEPXpZXKHyWp7vXeCDMchkitoOMyHivp_a-AeW8q9Qy_GdULAqd_88M0rn3UAyYnNdlCMLpfwVw6himwJC0Q==', 'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZfmwci_PN3YxpnumZik5qEs6FNRbyOfWAmuFG2M3zW-D2gMlRy98NdtOPFWa41AU_dDt-NNX6b5ACjSuwOifubidzdPzQs89uXEoiqPrO9iMhQ6whWPYO9Pgnywo2CDlk-Fm0C3DRRN8mJivgYeoI8zTrx174-kSHZcmV', 'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZ3bw_51Znsmxr0E6haUaTSbPqfsEERTENzCVxLE2YUsPqbnlnb0x-Omuud_pnTAu--m0VC1ghPaOxJe892iD_l-DXi5HRGJSqtUnh5oEFvAwYUgDYLt32x7a1zxKwiTSoBsKdRY3T8DA1yNUIL46OdZAFFLrbNSwofgY=', 'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEesigiAObslbQBMrbsavA2Q8eCNzU4XdVhVaSEXKlHzemMYnUSiQpLeaSecPFblyuRJV5NmrteuHEY9Akb1h3XC2zwEiQVOgtGXCYBEfciXT2R8FmAFpEzSivIbdeLxhSPv7GS-bPX80T4', 'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOc6JLc8IrbwEOVHR0vsQ9mz8rNt2jxx41T-TZ8uNeqQuPspvoFf2rv6El9zakNHWfpw28QpWce4nFp5As2jGTsCf9ROum8IfJ32sB2RXyCnHtBM_5m9isZvPh6RlwqA3k0iTdRhy_6lbQH3BmF7aIh0FJuA==']",5,,bottom_funnel,Can I apply for a low-rate credit card online in Australia with no annual fee?,Credit cards
+perplexity/sonar,perplexity/sonar,False,"Yes — in Australia, you **can apply online** for a **low-rate credit card with no annual fee**. Several cards fit that description, including the **American Express Low Rate Credit Card** at **10.99% p.a.** with **$0 annual fee**, and other $0-fee low-rate options such as **Bank Australia Low Rate Visa** and **Heritage Bank Gold Low Rate**.[6][1]
+
+A few important points:
+- **Low-rate** does not always mean **no-fee**: many low-interest cards still charge an annual fee, but some do not.[9][8]
+- Some cards offer **0% introductory rates** for a limited period, then revert to a higher ongoing rate.[1][3]
+- You’ll usually need to meet basic eligibility criteria such as being **18+** and an **Australian resident/citizen/permanent or temporary resident**, depending on the issuer.[3]
+
+If you want, I can also give you a short list of the **best current online-apply low-rate no-annual-fee cards in Australia** and compare their rates and key features.","['https://www.money.com.au/credit-cards/no-annual-fee-credit-cards', 'https://www.money.com.au/credit-cards', 'https://www.bankwest.com.au/credit-cards/no-annual-fee', 'https://www.finder.com.au/credit-cards/no-annual-fee-credit-cards', 'https://www.finder.com.au/credit-cards', 'https://www.nerdwallet.com/au/credit-cards/best-low-rate-credit-cards', 'https://www.americanexpress.com/en-au/credit-cards/low-rate-credit-card/', 'https://www.creditcard.com.au/low-interest-rate-credit-cards/', 'https://www.finder.com.au/credit-cards/low-interest-rate-credit-cards', 'https://www.forbes.com/advisor/au/credit-cards/interest-free-credit-cards/']",10,,bottom_funnel,Can I apply for a low-rate credit card online in Australia with no annual fee?,Credit cards
