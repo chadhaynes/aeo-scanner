@@ -64,3 +64,6 @@ def scan(req: ScanRequest):
 def health():
     """Trivial endpoint to confirm the server is up."""
     return {"status": "ok"}
+
+# serve index.html at the root — must be the LAST line, after all routes
+app.mount("/", StaticFiles(directory=".", html=True), name="static")

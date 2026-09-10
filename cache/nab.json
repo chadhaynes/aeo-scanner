@@ -1,0 +1,786 @@
+{
+  "brand": "NAB",
+  "url": "https://www.nab.com.au",
+  "results": [
+    {
+      "model_requested": "openai/gpt-5.6-luna:online",
+      "question": "I keep paying high interest on my credit card in Australia and want to find a better deal.",
+      "entities": [
+        {
+          "name": "Bankwest",
+          "isCompetitor": true,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Latitude",
+          "isCompetitor": true,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Canstar",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Moneysmart",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "model_requested": "anthropic/claude-sonnet-5:online",
+      "question": "I keep paying high interest on my credit card in Australia and want to find a better deal.",
+      "entities": [
+        {
+          "name": "Community First Bank",
+          "isCompetitor": true,
+          "sentiment": "positive"
+        },
+        {
+          "name": "ING",
+          "isCompetitor": true,
+          "sentiment": "positive"
+        },
+        {
+          "name": "Bankwest",
+          "isCompetitor": true,
+          "sentiment": "positive"
+        },
+        {
+          "name": "ANZ",
+          "isCompetitor": true,
+          "sentiment": "positive"
+        },
+        {
+          "name": "Money.com.au",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Mozo",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Reserve Bank of Australia",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Canstar",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Finder",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Mastercard",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "model_requested": "anthropic/claude-opus-5:online",
+      "question": "I keep paying high interest on my credit card in Australia and want to find a better deal.",
+      "entities": [
+        {
+          "name": "NAB",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Reserve Bank of Australia",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "ANZ",
+          "isCompetitor": true,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Latitude",
+          "isCompetitor": true,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Mastercard",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "ING",
+          "isCompetitor": true,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "CommBank",
+          "isCompetitor": true,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Westpac",
+          "isCompetitor": true,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Canstar",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Finder",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Mozo",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Money.com.au",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "model_requested": "google/gemini-3.7-flash:online",
+      "question": "I keep paying high interest on my credit card in Australia and want to find a better deal.",
+      "entities": [
+        {
+          "name": "Moneysmart",
+          "isCompetitor": false,
+          "sentiment": "positive"
+        },
+        {
+          "name": "Australian Government",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Canstar",
+          "isCompetitor": false,
+          "sentiment": "positive"
+        },
+        {
+          "name": "Finder",
+          "isCompetitor": false,
+          "sentiment": "positive"
+        },
+        {
+          "name": "RateCity",
+          "isCompetitor": false,
+          "sentiment": "positive"
+        },
+        {
+          "name": "National Debt Helpline",
+          "isCompetitor": false,
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "model_requested": "perplexity/sonar",
+      "question": "I keep paying high interest on my credit card in Australia and want to find a better deal.",
+      "entities": [
+        {
+          "name": "Community First Bank",
+          "isCompetitor": true,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Greater Bank",
+          "isCompetitor": true,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Bank of us",
+          "isCompetitor": true,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Westpac",
+          "isCompetitor": true,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "HSBC",
+          "isCompetitor": true,
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "model_requested": "openai/gpt-5.6-luna:online",
+      "question": "What should I look for when comparing credit cards in Australia, like interest rates, fees, and rewards?",
+      "entities": [
+        {
+          "name": "MoneySmart",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "ASIC",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "model_requested": "anthropic/claude-sonnet-5:online",
+      "question": "What should I look for when comparing credit cards in Australia, like interest rates, fees, and rewards?",
+      "entities": [
+        {
+          "name": "Visa",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Mastercard",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "eftpos",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Canstar",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Mozo",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Finder",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Money.com.au",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "model_requested": "anthropic/claude-opus-5:online",
+      "question": "What should I look for when comparing credit cards in Australia, like interest rates, fees, and rewards?",
+      "entities": [
+        {
+          "name": "ANZ",
+          "isCompetitor": true,
+          "sentiment": "negative"
+        },
+        {
+          "name": "Reserve Bank of Australia",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Flybuys",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Qantas",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Virgin Australia",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "BPAY",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Australian Taxation Office",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "American Express",
+          "isCompetitor": true,
+          "sentiment": "negative"
+        },
+        {
+          "name": "Priority Pass",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Visa",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Mastercard",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "eftpos",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "ASIC",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Moneysmart",
+          "isCompetitor": false,
+          "sentiment": "positive"
+        },
+        {
+          "name": "Canstar",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Mozo",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Finder",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Money.com.au",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "National Debt Helpline",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "model_requested": "google/gemini-3.7-flash:online",
+      "question": "What should I look for when comparing credit cards in Australia, like interest rates, fees, and rewards?",
+      "entities": [
+        {
+          "name": "Qantas",
+          "isCompetitor": true,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Virgin Australia",
+          "isCompetitor": true,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "CommBank",
+          "isCompetitor": true,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "ANZ",
+          "isCompetitor": true,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "NAB",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Westpac",
+          "isCompetitor": true,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "BPAY",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Australian Taxation Office",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "model_requested": "perplexity/sonar",
+      "question": "What should I look for when comparing credit cards in Australia, like interest rates, fees, and rewards?",
+      "entities": [
+        {
+          "name": "ANZ",
+          "isCompetitor": true,
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "model_requested": "openai/gpt-5.6-luna:online",
+      "question": "Are rewards credit cards worth it compared to low-rate credit cards in Australia?",
+      "entities": [
+        {
+          "name": "ASIC",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Moneysmart",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "RBA",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "model_requested": "anthropic/claude-sonnet-5:online",
+      "question": "Are rewards credit cards worth it compared to low-rate credit cards in Australia?",
+      "entities": [
+        {
+          "name": "American Express",
+          "isCompetitor": true,
+          "sentiment": "positive"
+        },
+        {
+          "name": "Qantas",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Velocity",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Reserve Bank of Australia",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Visa",
+          "isCompetitor": false,
+          "sentiment": "negative"
+        },
+        {
+          "name": "Mastercard",
+          "isCompetitor": false,
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "model_requested": "anthropic/claude-opus-5:online",
+      "question": "Are rewards credit cards worth it compared to low-rate credit cards in Australia?",
+      "entities": [
+        {
+          "name": "NAB",
+          "isCompetitor": false,
+          "sentiment": "negative"
+        },
+        {
+          "name": "ANZ",
+          "isCompetitor": true,
+          "sentiment": "negative"
+        },
+        {
+          "name": "Westpac",
+          "isCompetitor": true,
+          "sentiment": "negative"
+        },
+        {
+          "name": "American Express",
+          "isCompetitor": true,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "PayPal",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Visa",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Mastercard",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "eftpos",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Canstar",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Finder",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Mozo",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "model_requested": "google/gemini-3.7-flash:online",
+      "question": "Are rewards credit cards worth it compared to low-rate credit cards in Australia?",
+      "entities": [
+        {
+          "name": "Qantas",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Velocity",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Reserve Bank of Australia",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "model_requested": "perplexity/sonar",
+      "question": "Are rewards credit cards worth it compared to low-rate credit cards in Australia?",
+      "entities": [
+        {
+          "name": "CHOICE",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "model_requested": "openai/gpt-5.6-luna:online",
+      "question": "Can I apply for a low-rate credit card online in Australia with no annual fee?",
+      "entities": [
+        {
+          "name": "Bank Australia",
+          "isCompetitor": true,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Bankwest",
+          "isCompetitor": true,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Health Professionals Bank",
+          "isCompetitor": true,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "ING",
+          "isCompetitor": true,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "ASIC",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "MoneySmart",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "model_requested": "anthropic/claude-sonnet-5:online",
+      "question": "Can I apply for a low-rate credit card online in Australia with no annual fee?",
+      "entities": [
+        {
+          "name": "American Express",
+          "isCompetitor": true,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Bankwest",
+          "isCompetitor": true,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Bank Australia",
+          "isCompetitor": true,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "MyCard",
+          "isCompetitor": true,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "NAB",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "ANZ",
+          "isCompetitor": true,
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "model_requested": "anthropic/claude-opus-5:online",
+      "question": "Can I apply for a low-rate credit card online in Australia with no annual fee?",
+      "entities": [
+        {
+          "name": "American Express",
+          "isCompetitor": true,
+          "sentiment": "positive"
+        },
+        {
+          "name": "Finder",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "ING",
+          "isCompetitor": true,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Heritage Bank",
+          "isCompetitor": true,
+          "sentiment": "positive"
+        },
+        {
+          "name": "Coastline",
+          "isCompetitor": true,
+          "sentiment": "positive"
+        },
+        {
+          "name": "Qudos Bank",
+          "isCompetitor": true,
+          "sentiment": "positive"
+        },
+        {
+          "name": "Bank Australia",
+          "isCompetitor": true,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "ANZ",
+          "isCompetitor": true,
+          "sentiment": "negative"
+        },
+        {
+          "name": "Community First Bank",
+          "isCompetitor": true,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Canstar",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Mozo",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Money.com.au",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "model_requested": "google/gemini-3.7-flash:online",
+      "question": "Can I apply for a low-rate credit card online in Australia with no annual fee?",
+      "entities": [
+        {
+          "name": "Heritage Bank",
+          "isCompetitor": true,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "BankVic",
+          "isCompetitor": true,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "American Express",
+          "isCompetitor": true,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "ANZ",
+          "isCompetitor": true,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Westpac",
+          "isCompetitor": true,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "NAB",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Centrelink",
+          "isCompetitor": false,
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "model_requested": "perplexity/sonar",
+      "question": "Can I apply for a low-rate credit card online in Australia with no annual fee?",
+      "entities": [
+        {
+          "name": "American Express",
+          "isCompetitor": true,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Bank Australia",
+          "isCompetitor": true,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Heritage Bank",
+          "isCompetitor": true,
+          "sentiment": "neutral"
+        }
+      ]
+    }
+  ]
+}

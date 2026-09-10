@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AEO Scanner</title>
+  <style>
+    /* ---- minimal styling, kept in-file so this is one self-contained page ---- */
+    :root {
+      --bg: #0f1115;
+      --panel: #1a1d23;
+      --line: #2a2f38;
+      --text: #e6e8eb;
+      --muted: #9aa0aa;
+      --pos: #3fb27f;
+      --neu: #6b7280;
+      --neg: #e05260;
+      --accent: #5b8def;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; padding: 40px 24px;
+      background: var(--bg); color: var(--text);
+      font-family: -apple-system, Segoe UI, Roboto, sans-serif;
+      max-width: 960px; margin-inline: auto;
+    }
+    h1 { font-size: 24px; margin: 0 0 4px; }
+    .sub { color: var(--muted); font-size: 14px; margin-bottom: 28px; }
+
+    .controls { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 12px; }
+    input {
+      background: var(--panel); border: 1px solid var(--line);
+      color: var(--text); padding: 10px 12px; border-radius: 8px; font-size: 14px;
+    }
+    input#brand { width: 160px; }
+    input#url { flex: 1; min-width: 240px; }
+    button {
+      background: var(--accent); color: white; border: none;
+      padding: 10px 18px; border-radius: 8px; font-size: 14px;
+      cursor: pointer; font-weight: 600;
+    }
+    button:disabled { opacity: 0.5; cursor: not-allowed; }
+
+    #status { color: var(--muted); font-size: 13px; min-height: 20px; margin-bottom: 24px; }
+
+    .panel {
+      background: var(--panel); border: 1px solid var(--line);
+      border-radius: 12px; padding: 20px 22px; margin-bottom: 20px;
+    }
+    .panel h2 { font-size: 16px; margin: 0 0 16px; }
+
+    .metrics { display: flex; gap: 32px; margin-bottom: 18px; }
+    .metric .num { font-size: 30px; font-weight: 700; }
+    .metric .label { color: var(--muted); font-size: 12px; }
+
+    /* a sentiment bar: coloured segments sized by proportion */
+    .bar { display: flex; height: 22px; border-radius: 6px; overflow: hidden; margin-bottom: 8px; }
+    .bar .seg { height: 100%; }
+    .seg.pos { background: var(--pos); }
+    .seg.neu { background: var(--neu); }
+    .seg.neg { background: var(--neg); }
+    .legend { display: flex; gap: 16px; font-size: 12px; color: var(--muted); }
+    .legend .dot { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 5px; vertical-align: middle; }
+
+    table { width: 100%; border-collapse: collapse; font-size: 14px; }
+    th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); }
+    th { color: var(--muted); font-weight: 600; font-size: 12px; }
+    td.count { text-align: right; font-variant-numeric: tabular-nums; }
+    .mini-bar { display: inline-flex; height: 14px; border-radius: 3px; overflow: hidden; width: 120px; vertical-align: middle; }
+    .cached-tag { font-size: 11px; color: var(--muted); border: 1px solid var(--line); padding: 2px 8px; border-radius: 20px; }
+  </style>
+</head>
+<body>
+  <h1>AEO Scanner</h1>
+  <div class="sub">Measure a brand's visibility across AI answer engines.</div>
+
+  <div class="controls">
+    <input id="brand" placeholder="Brand (e.g. NAB)" value="NAB" />
+    <input id="url" placeholder="Homepage URL" value="https://www.nab.com.au" />
+    <button id="scanBtn" onclick="runScan()">Scan</button>
+  </div>
+  <div id="status"></div>
+
+  <div id="report"></div>
+
+  <script>
+    // ---------------------------------------------------------------------
+    // The client half. Sends the brand+url to the server's /scan endpoint,
+    // waits for the JSON report, then aggregates it in the browser and draws
+    // the two panels. The aggregation here is the same logic you did in
+    // pandas (value_counts, groupby) — just written in JavaScript.
+    // ---------------------------------------------------------------------
+
+    const API = "http://127.0.0.1:8000";
+
+    async function runScan() {
+      const brand = document.getElementById("brand").value.trim();
+      const url = document.getElementById("url").value.trim();
+      const btn = document.getElementById("scanBtn");
+      const status = document.getElementById("status");
+      const report = document.getElementById("report");
+
+      if (!brand || !url) { status.textContent = "Enter a brand and URL."; return; }
+
+      btn.disabled = true;
+      report.innerHTML = "";
+      status.textContent = "Scanning… (a fresh scan can take a few minutes)";
+
+      try {
+        // POST to the server. This is the browser talking to your FastAPI app.
+        const res = await fetch(`${API}/scan`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ brand, url }),
+        });
+        if (!res.ok) throw new Error(`Server returned ${res.status}`);
+        const data = await res.json();  // the report JSON
+        render(brand, data);
+        status.innerHTML = data.cached
+          ? `<span class="cached-tag">served from cache</span>`
+          : `<span class="cached-tag">fresh scan</span>`;
+      } catch (err) {
+        status.textContent = `Error: ${err.message}`;
+      } finally {
+        btn.disabled = false;
+      }
+    }
+
+    // Flatten every answer's entity list into one array, tagging each with the
+    // model it came from — the JS equivalent of your entities_df.
+    function flattenEntities(results) {
+      const rows = [];
+      for (const r of results) {
+        for (const e of (r.entities || [])) {
+          rows.push({
+            model: r.model_requested,
+            name: e.name,
+            isCompetitor: e.isCompetitor,
+            sentiment: e.sentiment,
+          });
+        }
+      }
+      return rows;
+    }
+
+    // Count sentiments for a slice of rows -> {positive, neutral, negative}
+    function sentimentCounts(rows) {
+      const c = { positive: 0, neutral: 0, negative: 0 };
+      for (const r of rows) if (c[r.sentiment] !== undefined) c[r.sentiment]++;
+      return c;
+    }
+
+    function render(brand, data) {
+      const results = data.results || [];
+      const entities = flattenEntities(results);
+
+      // ---- Panel 1: the subject brand itself ----
+      const brandRows = entities.filter(
+        (e) => e.name.toLowerCase() === brand.toLowerCase()
+      );
+      const brandSent = sentimentCounts(brandRows);
+      const mentionedAnswers = results.filter((r) =>
+        (r.entities || []).some(
+          (e) => e.name.toLowerCase() === brand.toLowerCase()
+        )
+      ).length;
+
+      // ---- Panel 2: the competitive field ----
+      const competitors = entities.filter((e) => e.isCompetitor);
+      // group by competitor name -> sentiment counts, and a total
+      const byName = {};
+      for (const e of competitors) {
+        if (!byName[e.name]) byName[e.name] = { positive: 0, neutral: 0, negative: 0, total: 0 };
+        byName[e.name][e.sentiment]++;
+        byName[e.name].total++;
+      }
+      // sort competitors by how often they appear, descending
+      const ranked = Object.entries(byName).sort((a, b) => b[1].total - a[1].total);
+
+      document.getElementById("report").innerHTML = `
+        <div class="panel">
+          <h2>${brand} — how the brand itself is covered</h2>
+          <div class="metrics">
+            <div class="metric">
+              <div class="num">${mentionedAnswers} / ${results.length}</div>
+              <div class="label">answers mentioning ${brand}</div>
+            </div>
+            <div class="metric">
+              <div class="num">${brandSent.positive}</div>
+              <div class="label">positive mentions</div>
+            </div>
+            <div class="metric">
+              <div class="num">${brandSent.negative}</div>
+              <div class="label">negative mentions</div>
+            </div>
+          </div>
+          ${sentimentBar(brandSent)}
+        </div>
+
+        <div class="panel">
+          <h2>The competitive field</h2>
+          <table>
+            <thead>
+              <tr><th>Competitor</th><th>Sentiment</th><th class="count">Mentions</th></tr>
+            </thead>
+            <tbody>
+              ${ranked.map(([name, s]) => `
+                <tr>
+                  <td>${name}</td>
+                  <td>${miniBar(s)}</td>
+                  <td class="count">${s.total}</td>
+                </tr>
+              `).join("")}
+            </tbody>
+          </table>
+          ${legend()}
+        </div>
+      `;
+    }
+
+    // a full-width sentiment bar from counts
+    function sentimentBar(c) {
+      const total = c.positive + c.neutral + c.negative || 1;
+      const pct = (n) => (n / total) * 100;
+      return `
+        <div class="bar">
+          <div class="seg pos" style="width:${pct(c.positive)}%"></div>
+          <div class="seg neu" style="width:${pct(c.neutral)}%"></div>
+          <div class="seg neg" style="width:${pct(c.negative)}%"></div>
+        </div>
+        ${legend()}
+      `;
+    }
+
+    // a compact per-row sentiment bar for the competitor table
+    function miniBar(c) {
+      const total = c.positive + c.neutral + c.negative || 1;
+      const pct = (n) => (n / total) * 100;
+      return `
+        <span class="mini-bar">
+          <span class="seg pos" style="width:${pct(c.positive)}%"></span>
+          <span class="seg neu" style="width:${pct(c.neutral)}%"></span>
+          <span class="seg neg" style="width:${pct(c.negative)}%"></span>
+        </span>
+      `;
+    }
+
+    function legend() {
+      return `
+        <div class="legend">
+          <span><span class="dot" style="background:var(--pos)"></span>positive</span>
+          <span><span class="dot" style="background:var(--neu)"></span>neutral</span>
+          <span><span class="dot" style="background:var(--neg)"></span>negative</span>
+        </div>
+      `;
+    }
+  </script>
+</body>
+</html>
